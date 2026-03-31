@@ -1,7 +1,5 @@
 <Solution>
-  <Project Path="../TestsDeCodeInstaller/TestsDeCodeInstaller.csproj">
-    <BuildDependency Project="CodeInstaller.csproj" />
-  </Project>
+  <Project Path="../TestCodeInstallerBis/TestCodeInstallerBis.csproj" Id="e8e3b47d-0f98-461d-801c-8848934a1a8e" />
   <Project Path="CodeInstaller.csproj">
     <Deploy Solution="Debug|*" />
   </Project>
