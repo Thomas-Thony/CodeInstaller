@@ -25,6 +25,33 @@ namespace CodeInstaller.Classes.ClassesScripts.Loaders
             PackageManager Maven = new PackageManager("Maven", (decimal)3.9, "mvn");
             PackageManager Npm = new PackageManager("Npm", (decimal)11.7, "npm");
             PackageManager NuGet = new PackageManager("Nuget", (decimal)6.11, "dotnet");
+            PackageManager Pip = new PackageManager("Pip", (decimal)25.3, "pip");
+            PackageManager Podman = new PackageManager("Podman", (decimal)5.8, "podman");
+            PackageManager RubyGem = new PackageManager("Rubygem", (decimal)4.0, "gem");
+            PackageManager Sbt = new PackageManager("Sbt", (decimal)1.10, "sbt");
+            PackageManager Vcpkg = new PackageManager("vcpkg", (decimal)2026.03, "vcpkg");
+            PackageManager Yarn = new PackageManager("Yarn", (decimal)4.12, "yarn");
+
+            this.listePM.Add("Cargo", Cargo);
+            this.listePM.Add("CocoaPods", CocoaPods);
+            this.listePM.Add("Composer", Composer);
+            this.listePM.Add("Conda", Conda);
+            this.listePM.Add("CRAN", CRAN);
+            this.listePM.Add("Deno", Deno);
+            this.listePM.Add("Docker", Docker);
+            this.listePM.Add("Gradle", Gradle);
+            this.listePM.Add("Leiningen", Leiningen);
+            this.listePM.Add("LuaRocks", LuaRocks);
+            this.listePM.Add("Maven", Maven);
+            this.listePM.Add("Npm", Npm);
+            this.listePM.Add("NuGet", NuGet);
+            this.listePM.Add("Pip", Pip);
+            this.listePM.Add("Podman", Podman);
+            this.listePM.Add("RubyGem", RubyGem);
+            this.listePM.Add("Sbt", Sbt);
+            this.listePM.Add("Vcpkg", Vcpkg);
+            this.listePM.Add("Yarn", Yarn);
+
             return this.listePM;
         }
     }
