@@ -14,6 +14,7 @@ namespace CodeInstaller.Classes
         public string ProjectPath { get => projectPath; set => projectPath = value; }
     
         public void CreateProject() {
+            string projectPath = this.ProjectPath;
 
         }
     }
