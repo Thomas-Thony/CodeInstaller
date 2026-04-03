@@ -1,0 +1,458 @@
+﻿[
+  {
+    "nom": "Angular",
+    "version": "18.9",
+    "liengithub": "https://github.com/angular/angular",
+    "packagemanager": "npm"
+  },
+  {
+    "nom": "AnyChart",
+    "version": "7.13",
+    "liengithub": null,
+    "packagemanager": "npm"
+  },
+  {
+    "nom": "Apache ECharts",
+    "version": "6.0",
+    "liengithub": "https://github.com/apache/echarts",
+    "packagemanager": "npm"
+  },
+  {
+    "nom": "Babylon",
+    "version": "8.49",
+    "liengithub": "https://github.com/BabylonJS/Babylon.js",
+    "packagemanager": "npm"
+  },
+  {
+    "nom": "Chart",
+    "version": "4.5",
+    "liengithub": "https://github.com/chartjs/Chart.js",
+    "packagemanager": "npm"
+  },
+  {
+    "nom": "D3",
+    "version": "7.9",
+    "liengithub": "https://github.com/d3/d3",
+    "packagemanager": "npm"
+  },
+  {
+    "nom": "Chr",
+    "version": "3.3",
+    "liengithub": "https://github.com/fnogatz/CHR.js/",
+    "packagemanager": "npm"
+  },
+  {
+    "nom": "Google charts",
+    "version": "54.0",
+    "liengithub": null,
+    "packagemanager": "npm"
+  },
+  {
+    "nom": "Polymer",
+    "version": "3.5",
+    "liengithub": "https://github.com/Polymer/polymer",
+    "packagemanager": "npm"
+  },
+  {
+    "nom": "Dojotoolkit",
+    "version": "8.0",
+    "liengithub": "https://github.com/dojo/meta",
+    "packagemanager": "npm"
+  },
+  {
+    "nom": "Joint",
+    "version": "4.0",
+    "liengithub": null,
+    "packagemanager": "npm"
+  },
+  {
+    "nom": "Jquery",
+    "version": "4.0",
+    "liengithub": "https://github.com/jquery/jquery",
+    "packagemanager": "npm"
+  },
+  {
+    "nom": "Mootools",
+    "version": "1.6",
+    "liengithub": "https://github.com/mootools/mootools-core",
+    "packagemanager": "npm"
+  },
+  {
+    "nom": "React",
+    "version": "18.9",
+    "liengithub": "https://github.com/facebook/react",
+    "packagemanager": "npm"
+  },
+  {
+    "nom": "Prototype",
+    "version": "1.7",
+    "liengithub": "https://github.com/prototypejs/prototype",
+    "packagemanager": "npm"
+  },
+  {
+    "nom": "Plotly",
+    "version": "3.4",
+    "liengithub": "https://github.com/plotly/plotly.js/",
+    "packagemanager": "npm"
+  },
+  {
+    "nom": "P5",
+    "version": "2.2",
+    "liengithub": "https://github.com/processing/p5.js",
+    "packagemanager": "npm"
+  },
+  {
+    "nom": "Raphael",
+    "version": "2.3",
+    "liengithub": null,
+    "packagemanager": "yarn"
+  },
+  {
+    "nom": "Vue",
+    "version": "3.4",
+    "liengithub": "https://github.com/vuejs/vue",
+    "packagemanager": "npm"
+  },
+  {
+    "nom": "RGraph",
+    "version": "inconnue",
+    "liengithub": "https://github.com/RGraph",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "SWFObject",
+    "version": "2.2",
+    "liengithub": "https://github.com/swfobject/swfobject",
+    "packagemanager": "non disponible"
+  },
+  {
+    "nom": "Teechart",
+    "version": "inconnue",
+    "liengithub": null,
+    "packagemanager": "non disponible"
+  },
+  {
+    "nom": "Three.js",
+    "version": "r164",
+    "liengithub": "https://github.com/mrdoob/three.js",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Velocity.js",
+    "version": "2.0.6",
+    "liengithub": "https://github.com/julianshapiro/velocity",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Verge3D",
+    "version": "inconnue",
+    "liengithub": "https://github.com/Soft8Soft",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Webix",
+    "version": "inconnue",
+    "liengithub": "https://github.com/webix-hub",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Bootstrap",
+    "version": "5.3.2",
+    "liengithub": "https://github.com/twbs/bootstrap",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Ext JS",
+    "version": "inconnue",
+    "liengithub": null,
+    "packagemanager": "non disponible"
+  },
+  {
+    "nom": "Foundation",
+    "version": "6.7.7",
+    "liengithub": "https://github.com/foundation/foundation-sites",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "jQuery UI",
+    "version": "1.13.2",
+    "liengithub": "https://github.com/jquery/jquery-ui",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "jQWidgets",
+    "version": "inconnue",
+    "liengithub": null,
+    "packagemanager": "non disponible"
+  },
+  {
+    "nom": "OpenUI5",
+    "version": "1.120.x",
+    "liengithub": "https://github.com/SAP/openui5",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "qooxdoo",
+    "version": "7.7.0",
+    "liengithub": "https://github.com/qooxdoo/qooxdoo",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "WinJS",
+    "version": "4.4.0",
+    "liengithub": "https://github.com/winjs/winjs",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Svelte",
+    "version": "4.2.x",
+    "liengithub": "https://github.com/sveltejs/svelte",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Glow",
+    "version": "abandonné",
+    "liengithub": "https://github.com/glow",
+    "packagemanager": "non disponible"
+  },
+  {
+    "nom": "Lively Kernel",
+    "version": "inconnue",
+    "liengithub": "https://github.com/LivelyKernel",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Script.aculo.us",
+    "version": "1.9.0",
+    "liengithub": "https://github.com/madrobby/scriptaculous",
+    "packagemanager": "non disponible"
+  },
+  {
+    "nom": "YUI Library",
+    "version": "3.18.1",
+    "liengithub": "https://github.com/yui/yui3",
+    "packagemanager": "non disponible"
+  },
+  {
+    "nom": "Google Closure Library",
+    "version": "20240301",
+    "liengithub": "https://github.com/google/closure-library",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Joose",
+    "version": "inconnue",
+    "liengithub": "https://github.com/SamuraiJack/Joose",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "JsPHP",
+    "version": "inconnue",
+    "liengithub": "https://github.com/nikic/JS-PHP",
+    "packagemanager": "non disponible"
+  },
+  {
+    "nom": "Microsoft Ajax Library",
+    "version": "abandonné",
+    "liengithub": null,
+    "packagemanager": "non disponible"
+  },
+  {
+    "nom": "MochiKit",
+    "version": "1.4.2",
+    "liengithub": "https://github.com/mochi/mochikit",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "PDF.js",
+    "version": "4.0.x",
+    "liengithub": "https://github.com/mozilla/pdf.js",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Socket.IO",
+    "version": "4.7.x",
+    "liengithub": "https://github.com/socketio/socket.io",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Spry Framework",
+    "version": "abandonné",
+    "liengithub": "https://github.com/adobe/Spry",
+    "packagemanager": "non disponible"
+  },
+  {
+    "nom": "Underscore.js",
+    "version": "1.13.6",
+    "liengithub": "https://github.com/jashkenas/underscore",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "jQuery Mobile",
+    "version": "1.5.0-alpha",
+    "liengithub": "https://github.com/jquery/jquery-mobile",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Mustache.js",
+    "version": "4.2.0",
+    "liengithub": "https://github.com/janl/mustache.js",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Jinja-JS",
+    "version": "inconnue",
+    "liengithub": null,
+    "packagemanager": "non disponible"
+  },
+  {
+    "nom": "Twig.js",
+    "version": "1.16.0",
+    "liengithub": "https://github.com/twigjs/twig.js",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Jasmine",
+    "version": "5.x",
+    "liengithub": "https://github.com/jasmine/jasmine",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Mocha",
+    "version": "10.x",
+    "liengithub": "https://github.com/mochajs/mocha",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "QUnit",
+    "version": "2.20.x",
+    "liengithub": "https://github.com/qunitjs/qunit",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Playwright",
+    "version": "1.41.x",
+    "liengithub": "https://github.com/microsoft/playwright",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Cypress",
+    "version": "13.x",
+    "liengithub": "https://github.com/cypress-io/cypress",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Backbone.js",
+    "version": "1.5.0",
+    "liengithub": "https://github.com/jashkenas/backbone",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Echo",
+    "version": "inconnue",
+    "liengithub": null,
+    "packagemanager": "non disponible"
+  },
+  {
+    "nom": "Ember.js",
+    "version": "5.x",
+    "liengithub": "https://github.com/emberjs/ember.js",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Enyo",
+    "version": "2.7.0",
+    "liengithub": "https://github.com/enyojs/enyo",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Express.js",
+    "version": "4.18.x",
+    "liengithub": "https://github.com/expressjs/express",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Google Web Toolkit",
+    "version": "inconnue",
+    "liengithub": "https://github.com/gwtproject",
+    "packagemanager": "non disponible"
+  },
+  {
+    "nom": "JsRender/JsViews",
+    "version": "1.0.13",
+    "liengithub": "https://github.com/BorisMoore/jsviews",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Knockout",
+    "version": "3.5.1",
+    "liengithub": "https://github.com/knockout/knockout",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Meteor",
+    "version": "3.x",
+    "liengithub": "https://github.com/meteor/meteor",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Mojito",
+    "version": "abandonné",
+    "liengithub": "https://github.com/yahoo/mojito",
+    "packagemanager": "non disponible"
+  },
+  {
+    "nom": "Next.js",
+    "version": "14.x",
+    "liengithub": "https://github.com/vercel/next.js",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Nuxt.js",
+    "version": "3.x",
+    "liengithub": "https://github.com/nuxt/nuxt",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "SproutCore",
+    "version": "2.0",
+    "liengithub": "https://github.com/sproutcore/sproutcore",
+    "packagemanager": "non disponible"
+  },
+  {
+    "nom": "Blockly",
+    "version": "10.x",
+    "liengithub": "https://github.com/google/blockly",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Cannon.js",
+    "version": "0.6.2",
+    "liengithub": "https://github.com/schteppe/cannon.js",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "MathJax",
+    "version": "3.x",
+    "liengithub": "https://github.com/mathjax/MathJax",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Modernizr",
+    "version": "3.13.0",
+    "liengithub": "https://github.com/Modernizr/Modernizr",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "TensorFlow.js",
+    "version": "4.x",
+    "liengithub": "https://github.com/tensorflow/tfjs",
+    "packagemanager": "npm/yarn"
+  },
+  {
+    "nom": "Brain.js",
+    "version": "2.0.x",
+    "liengithub": "https://github.com/BrainJS/brain.js",
+    "packagemanager": "npm/yarn"
+  }
+]
