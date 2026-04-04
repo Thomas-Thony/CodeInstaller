@@ -6,7 +6,7 @@ namespace CodeInstaller.Classes.ClassesScripts
 {
     public class Javascript : Langage {
         
-        public Javascript(string javascript, Dictionary<string, Framework> desFrameworksJS) : base(javascript, desFrameworksJS) {
+        public Javascript(string javascript, Dictionary<string, Framework> desFrameworksJS, string image) : base(javascript, desFrameworksJS, image) {
 
         }
     }

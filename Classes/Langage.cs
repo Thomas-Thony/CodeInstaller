@@ -7,19 +7,20 @@ using System.Text;
 
 namespace CodeInstaller.Classes
 {
-    public abstract class Langage
-    {
+    public abstract class Langage {
         private string aLangage;
         private Dictionary<string, Framework> frameworks;
+        private string image;
 
-        public Langage(string aLangage, Dictionary<string, Framework> desFrameworks)
-        {
+        public Langage(string aLangage, Dictionary<string, Framework> desFrameworks, string logo) {
             this.aLangage = aLangage;
             this.Frameworks = desFrameworks;
+            this.Image = logo;
         }
 
         public string ALangage { get => aLangage; set => aLangage = value; }
         public Dictionary<string, Framework> Frameworks { get => frameworks; set => frameworks = value; }
+        public string Image { get => image; set => image = value; }
 
         public void createProjectFromFramework(Framework aFramework, PackageManager aPackageManager, string path)
         {

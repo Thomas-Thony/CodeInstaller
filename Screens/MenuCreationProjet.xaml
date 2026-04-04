@@ -15,20 +15,42 @@
                 <Label Text="Test menu projet"/>
             </HorizontalStackLayout>
 
-            <CollectionView x:Name="CollectionLangages" ItemsSource="{Binding LoadLangages}" Grid.Row="2" EmptyView="Aucun langage disponible">
+            <CollectionView x:Name="CollectionLangages" Grid.Row="2" ItemsSource="{Binding ProjectPath}" EmptyView="Aucun langage disponible">
                 <CollectionView.ItemsLayout>
                     <LinearItemsLayout Orientation="Vertical" ItemSpacing="20"/>
                 </CollectionView.ItemsLayout>
                 <CollectionView.ItemTemplate>
-                    <DataTemplate>
+                    <DataTemplate x:DataType="viewmodels:Langage">
                         <Border MinimumHeightRequest="315" Stroke="#efefef">
-                            <Grid>
+                            <Grid Padding="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
                                 </Grid.ColumnDefinitions>
 
-                                <Label Text="{}"/>
+                                <Label Text="{Binding ALangage}" Grid.Column="1" Grid.Row="1"/>
+                                <Image
+                                    Grid.RowSpan="2"
+                                    Grid.Row="4"
+                                    Grid.Column="4"
+                                    Source="{Binding Image}"
+                                    Aspect="AspectFill"
+                                    HeightRequest="60"
+                                    WidthRequest="60" 
+                                />
+                                <Button
+                                    x:Name="CounterBtn"
+                                    Text="{Binding ALangage, StringFormat='Créer un projet avec {0}'}"
+                                    SemanticProperties.Hint="Counts the number of times you click"
+                                    Clicked="OnCreatePorjectByLangage"
+                                />
                             </Grid>
                         </Border>
                     </DataTemplate>

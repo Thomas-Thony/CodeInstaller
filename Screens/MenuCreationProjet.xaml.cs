@@ -4,9 +4,16 @@ namespace CodeInstaller.Screens;
 
 public partial class MenuCreationProjet : ContentPage
 {
-	public MenuCreationProjet()
-	{
+	public MenuCreationProjet()	{
 		InitializeComponent();
-		BindingContext = new LoadLangages();
-	}
+        CollectionLangages.ItemsSource = LoadLangages.getLangages();
+    }
+
+    private void CounterBtn_Clicked(object sender, EventArgs e) {
+
+    }
+
+    private void OnCreatePorjectByLangage(object sender, EventArgs e) {
+
+    }
 }
