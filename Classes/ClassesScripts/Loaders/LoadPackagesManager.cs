@@ -8,7 +8,7 @@ namespace CodeInstaller.Classes.ClassesScripts.Loaders
         private Dictionary<string, PackageManager> listePM;
 
         public LoadPackagesManager() {
-
+            this.listePM = new Dictionary<string, PackageManager>();
         }
 
         public Dictionary<string, PackageManager> loadPM() {

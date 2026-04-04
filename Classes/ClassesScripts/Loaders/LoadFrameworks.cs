@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Text;
-using System.Text.Json;
+using Newtonsoft.Json;
 
 namespace CodeInstaller.Classes.ClassesScripts.Loaders {
     public class LoadFrameworks {
@@ -11,47 +11,45 @@ namespace CodeInstaller.Classes.ClassesScripts.Loaders {
         private Dictionary<string, Framework> listeFrameworksPHP;
 
         public LoadFrameworks() {
-            this.listeFrameworksJS = this.loadJsFrameworks();
-            this.listeFrameworksPHP = this.loadPHPFrameworks();
+            this.listeFrameworksJS = new Dictionary<string, Framework>();
+            this.listeFrameworksPHP = new Dictionary<string, Framework>();
+            this.listeFrameworksJS = LoadFrameworks.loadJsFrameworks();
+            this.listeFrameworksPHP = LoadFrameworks.loadPHPFrameworks();
         }
 
-        public Dictionary<string, Framework> loadJsFrameworks() {
+        public static Dictionary<string, Framework> loadJsFrameworks() {
+            Dictionary<string, Framework> alisteFrameworksJS = new Dictionary<string, Framework>();
+            LoadPackagesManager lesPm = new LoadPackagesManager();
+            Dictionary<string, PackageManager> lesPmCharges = lesPm.loadPM();
+            var pathjson = Path.Combine(AppContext.BaseDirectory,"Classes", "ClassesScripts", "Loaders", "Src", "FrameworksJS.json");
+
+            string json = File.ReadAllText(pathjson);
+
+            List<Framework> lesFrameworksJs = JsonConvert.DeserializeObject<List<Framework>>(json);
+
+            foreach (var unFrameworkJS in lesFrameworksJs) {
+                alisteFrameworksJS.Add(unFrameworkJS.Nom, unFrameworkJS);
+            }
+
+            return alisteFrameworksJS;
+        }
+
+        public static Dictionary<string, Framework> loadPHPFrameworks() {
+            Dictionary<string, Framework> alisteFrameworksPHP = new Dictionary<string, Framework>();
             LoadPackagesManager lesPm = new LoadPackagesManager();
             Dictionary<string, PackageManager> lesPmCharges = lesPm.loadPM();
 
-            string json = File.ReadAllText("./Src/frameworksJS.json");
+            var pathjson = Path.Combine(AppContext.BaseDirectory, "Classes", "ClassesScripts", "Loaders", "Src", "frameworksPHP.json");
 
-            var options = new JsonSerializerOptions {
-                PropertyNameCaseInsensitive = true
-            };
+            string json = File.ReadAllText(pathjson);
 
-            List<Framework> lesFrameworksJs = JsonSerializer.Deserialize<List<Framework>>(json, options);
+            List<Framework> lesFrameworksPHP = JsonConvert.DeserializeObject<List<Framework>>(json);
 
-            foreach (var unFramework in lesFrameworksJs) {
-                this.listeFrameworksJS.Add(unFramework.Nom, unFramework);
+            foreach (var unFrameworkPHP in lesFrameworksPHP) {
+                alisteFrameworksPHP.Add(unFrameworkPHP.Nom, unFrameworkPHP);
             }
 
-            return this.listeFrameworksJS;
-        }
-
-        public Dictionary<string, Framework> loadPHPFrameworks() {
-            LoadPackagesManager lesPm = new LoadPackagesManager();
-            Dictionary<string, PackageManager> lesPmCharges = lesPm.loadPM();
-
-            string json = File.ReadAllText("./Src/frameworksPHP.json");
-
-            var options = new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            };
-
-            List<Framework> lesFrameworksJs = JsonSerializer.Deserialize<List<Framework>>(json, options);
-
-            foreach (var unFramework in lesFrameworksJs) { 
-                this.listeFrameworksPHP.Add(unFramework.Nom, unFramework);
-            }
-
-            return this.listeFrameworksPHP;
+            return alisteFrameworksPHP;
         }
     }
 }

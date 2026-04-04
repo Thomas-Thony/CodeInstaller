@@ -1,242 +1,242 @@
 [
   {
     "nom": "Laravel",
-    "version": "10.48.0",
+    "version": "10.48",
     "liengithub": "https://github.com/laravel/laravel",
     "packagemanager": "composer"
   },
   {
     "nom": "Symfony",
-    "version": "6.4.0",
+    "version": "6.4",
     "liengithub": "https://github.com/symfony/symfony",
     "packagemanager": "composer"
   },
   {
     "nom": "CodeIgniter",
-    "version": "4.4.6",
+    "version": "4.4",
     "liengithub": "https://github.com/codeigniter4/CodeIgniter4",
     "packagemanager": "composer"
   },
   {
     "nom": "Yii PHP Framework",
-    "version": "2.0.49",
+    "version": "2.0",
     "liengithub": "https://github.com/yiisoft/yii2",
     "packagemanager": "composer"
   },
   {
     "nom": "PHPUnit",
-    "version": "10.5.0",
+    "version": "10.5",
     "liengithub": "https://github.com/sebastianbergmann/phpunit",
     "packagemanager": "composer"
   },
   {
     "nom": "Phalcon Framework",
-    "version": "5.4.0",
+    "version": "5.4",
     "liengithub": "https://github.com/phalcon/cphalcon",
     "packagemanager": "pecl/composer"
   },
   {
     "nom": "CakePHP",
-    "version": "5.0.0",
+    "version": "5.0",
     "liengithub": "https://github.com/cakephp/cakephp",
     "packagemanager": "composer"
   },
   {
     "nom": "Slim Framework",
-    "version": "4.12.0",
+    "version": "4.12",
     "liengithub": "https://github.com/slimphp/Slim",
     "packagemanager": "composer"
   },
   {
     "nom": "Zend Framework",
-    "version": "3.0.0",
+    "version": "3.0",
     "liengithub": "https://github.com/zendframework/zendframework",
     "packagemanager": "composer"
   },
   {
     "nom": "Lumen PHP Framework",
-    "version": "10.0.0",
+    "version": "10.0",
     "liengithub": "https://github.com/laravel/lumen",
     "packagemanager": "composer"
   },
   {
     "nom": "FuelPHP",
-    "version": "1.9.0",
+    "version": "1.9",
     "liengithub": "https://github.com/fuel/fuel",
     "packagemanager": "composer"
   },
   {
     "nom": "Fat-Free Framework",
-    "version": "3.8.2",
+    "version": "3.8",
     "liengithub": "https://github.com/bcosca/fatfree",
     "packagemanager": "composer"
   },
   {
     "nom": "Silex",
-    "version": "2.3.0",
+    "version": "2.3",
     "liengithub": "https://github.com/silexphp/Silex",
     "packagemanager": "composer"
   },
   {
     "nom": "Nette Framework",
-    "version": "3.2.0",
+    "version": "3.2",
     "liengithub": "https://github.com/nette/nette",
     "packagemanager": "composer"
   },
   {
     "nom": "Flight",
-    "version": "1.3.8",
+    "version": "1.3",
     "liengithub": "https://github.com/mikecao/flight",
     "packagemanager": "composer"
   },
   {
     "nom": "Medoo",
-    "version": "2.1.0",
+    "version": "2.1",
     "liengithub": "https://github.com/catfan/Medoo",
     "packagemanager": "composer"
   },
   {
     "nom": "Behat",
-    "version": "3.13.0",
+    "version": "3.13",
     "liengithub": "https://github.com/Behat/Behat",
     "packagemanager": "composer"
   },
   {
     "nom": "Mockery",
-    "version": "1.6.0",
+    "version": "1.6",
     "liengithub": "https://github.com/mockery/mockery",
     "packagemanager": "composer"
   },
   {
     "nom": "phpspec",
-    "version": "7.3.0",
+    "version": "7.3",
     "liengithub": "https://github.com/phpspec/phpspec",
     "packagemanager": "composer"
   },
   {
     "nom": "Codeception",
-    "version": "5.0.0",
+    "version": "5.0",
     "liengithub": "https://github.com/Codeception/Codeception",
     "packagemanager": "composer"
   },
   {
     "nom": "Atoum",
-    "version": "4.0.0",
+    "version": "4.0",
     "liengithub": "https://github.com/atoum/atoum",
     "packagemanager": "composer"
   },
   {
     "nom": "Workerman",
-    "version": "4.1.0",
+    "version": "4.1",
     "liengithub": "https://github.com/walkor/workerman",
     "packagemanager": "composer"
   },
   {
     "nom": "Swoole",
-    "version": "5.1.0",
+    "version": "5.1",
     "liengithub": "https://github.com/swoole/swoole-src",
     "packagemanager": "pecl/composer"
   },
   {
     "nom": "SabreDAV",
-    "version": "4.5.0",
+    "version": "4.5",
     "liengithub": "https://github.com/sabre-io/dav",
     "packagemanager": "composer"
   },
   {
     "nom": "Opauth",
-    "version": "1.0.0",
+    "version": "1.0",
     "liengithub": "https://github.com/opauth/opauth",
     "packagemanager": "composer"
   },
 
   {
     "nom": "Ice Framework",
-    "version": "unknown",
+    "version": "0.0",
     "liengithub": "",
     "packagemanager": "composer"
   },
   {
     "nom": "QueryPHP",
-    "version": "unknown",
+    "version": "0.0",
     "liengithub": "",
     "packagemanager": "composer"
   },
   {
     "nom": "Zest Framework",
-    "version": "unknown",
+    "version": "0.0",
     "liengithub": "",
     "packagemanager": "composer"
   },
   {
     "nom": "Willer Framework",
-    "version": "unknown",
+    "version": "0.0",
     "liengithub": "",
     "packagemanager": "composer"
   },
   {
     "nom": "CrossPHP",
-    "version": "unknown",
+    "version": "0.0",
     "liengithub": "",
     "packagemanager": "composer"
   },
   {
     "nom": "TinyMVC",
-    "version": "unknown",
+    "version": "0.0",
     "liengithub": "",
     "packagemanager": "composer"
   },
   {
     "nom": "Kohana",
-    "version": "3.3.6",
+    "version": "3.3",
     "liengithub": "https://github.com/kohana/kohana",
     "packagemanager": "composer"
   },
   {
     "nom": "Aura",
-    "version": "2.0.0",
+    "version": "2.0",
     "liengithub": "https://github.com/auraphp/Aura.Framework",
     "packagemanager": "composer"
   },
   {
     "nom": "PHPixie",
-    "version": "3.0.0",
+    "version": "3.0",
     "liengithub": "https://github.com/phpixie/framework",
     "packagemanager": "composer"
   },
   {
     "nom": "Jelix",
-    "version": "1.8.0",
+    "version": "1.8",
     "liengithub": "https://github.com/jelix/jelix",
     "packagemanager": "composer"
   },
   {
     "nom": "DooPHP",
-    "version": "2.1.0",
+    "version": "2.1",
     "liengithub": "https://github.com/doophp/doophp",
     "packagemanager": "composer"
   },
   {
     "nom": "Limonade",
-    "version": "1.0.0",
+    "version": "1.0",
     "liengithub": "https://github.com/sofadesign/limonade",
     "packagemanager": "composer"
   },
   {
     "nom": "SilverStripe",
-    "version": "5.0.0",
+    "version": "5.0",
     "liengithub": "https://github.com/silverstripe/silverstripe-framework",
     "packagemanager": "composer"
   },
   {
     "nom": "TYPO3 Flow",
-    "version": "8.3.0",
+    "version": "8.3",
     "liengithub": "https://github.com/neos/flow",
     "packagemanager": "composer"
   },
   {
     "nom": "Horde Application Framework",
-    "version": "5.2.0",
+    "version": "5.2",
     "liengithub": "https://github.com/horde/horde",
     "packagemanager": "composer"
   }

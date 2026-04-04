@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace CodeInstaller.Classes.ClassesScripts.Loaders {
-    public class LoadLangages {
+    public record  LoadLangages {
         public List<Langage> lesLangages;
         public LoadLangages() {
-            LoadFrameworks lesFrameworks = new LoadFrameworks();
-            PHP php = new PHP("PHP", lesFrameworks.loadPHPFrameworks());
-            Javascript JS = new Javascript("Javascript", lesFrameworks.loadJsFrameworks());
-
+            PHP php = new PHP("PHP", LoadFrameworks.loadPHPFrameworks());
+            Javascript JS = new Javascript("Javascript", LoadFrameworks.loadJsFrameworks());
+            List<Langage> lesLangages = new List<Langage>();
+            this.lesLangages = lesLangages;
             this.lesLangages.Add(php);
             this.lesLangages.Add(JS);
         }

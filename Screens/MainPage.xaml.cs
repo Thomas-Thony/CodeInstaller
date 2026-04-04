@@ -22,4 +22,8 @@ public partial class MainPage : ContentPage
 
         SemanticScreenReader.Announce(CounterBtn.Text);
     }
+
+    async void onCreateProjectCliked(object? sender, EventArgs e) {
+        await Navigation.PushAsync(new MenuCreationProjet());
+    }
 }
