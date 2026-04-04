@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:CodeInstaller.Classes"
+             x:DataType="viewmodels:CodeInit"
+             x:Class="CodeInstaller.Screens.MenuCreationProjet"
+             Title="MenuCreationProjet">
+    <VerticalStackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="AUTO"/>
+            </Grid.RowDefinitions>
+
+            <HorizontalStackLayout>
+                <Label Text="Test menu projet"/>
+            </HorizontalStackLayout>
+
+            <CollectionView ItemsSource="{Binding Langage}">
+                
+            </CollectionView>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

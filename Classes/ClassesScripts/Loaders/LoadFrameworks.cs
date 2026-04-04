@@ -12,6 +12,7 @@ namespace CodeInstaller.Classes.ClassesScripts.Loaders {
 
         public LoadFrameworks() {
             this.listeFrameworksJS = this.loadJsFrameworks();
+            this.listeFrameworksPHP = this.loadPHPFrameworks();
         }
 
         public Dictionary<string, Framework> loadJsFrameworks() {

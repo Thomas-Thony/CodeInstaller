@@ -5,7 +5,8 @@ using System.Text;
 namespace CodeInstaller.Classes.ClassesScripts
 {
     public class Javascript : Langage {
-        public Javascript(string nomLangage, List<Framework> desFrameworks, PackageManager packageManager) : base (nomLangage, desFrameworks, packageManager) {
+        
+        public Javascript(string javascript, Dictionary<string, Framework> desFrameworksJS) : base(javascript, desFrameworksJS) {
 
         }
     }

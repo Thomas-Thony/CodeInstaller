@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Maui.Animations;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -9,19 +10,16 @@ namespace CodeInstaller.Classes
     public abstract class Langage
     {
         private string aLangage;
-        private List<Framework> frameworks;
-        private PackageManager packageManager;
+        private Dictionary<string, Framework> frameworks;
 
-        public Langage(string aLangage, List<Framework> desFrameworks, PackageManager aPackageManager)
+        public Langage(string aLangage, Dictionary<string, Framework> desFrameworks)
         {
             this.aLangage = aLangage;
             this.Frameworks = desFrameworks;
-            this.PackageManager = aPackageManager;
         }
 
         public string ALangage { get => aLangage; set => aLangage = value; }
-        public List<Framework> Frameworks { get => frameworks; set => frameworks = value; }
-        public PackageManager PackageManager { get => packageManager; set => packageManager = value; }
+        public Dictionary<string, Framework> Frameworks { get => frameworks; set => frameworks = value; }
 
         public void createProjectFromFramework(Framework aFramework, PackageManager aPackageManager, string path)
         {
