@@ -10,10 +10,12 @@ public partial class MenuCreationProjet : ContentPage
     }
 
     private void CounterBtn_Clicked(object sender, EventArgs e) {
-
+        
     }
 
-    private void OnCreatePorjectByLangage(object sender, EventArgs e) {
-
+    async void OnCreatePorjectByLangage(object sender, EventArgs e) {
+        if (sender is Button btn && btn.CommandParameter is Langage lang){
+            await Navigation.PushAsync(new MenuChoixFramework(lang)); 
+        }
     }
 }

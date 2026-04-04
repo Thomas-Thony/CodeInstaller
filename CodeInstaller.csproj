@@ -89,6 +89,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Screens\MenuChoixFramework.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Screens\MenuCreationProjet.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

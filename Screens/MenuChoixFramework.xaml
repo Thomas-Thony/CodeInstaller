@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CodeInstaller.Screens.MenuChoixFramework"
+             xmlns:viewmodels="clr-namespace:CodeInstaller.Classes"
+             Title="MenuChoixFramework">
+    <CollectionView x:Name="lesFrameworks">
+        <CollectionView.ItemTemplate>
+            <DataTemplate x:DataType="viewmodels:Langage">
+                <Grid Padding="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.RowSpan="2"
+                       Source="{Binding Logo}"
+                       Aspect="AspectFill"
+                       HeightRequest="60"
+                       WidthRequest="60"/>
+
+                    <Label Grid.Column="1"
+                       Text="{Binding Nom}"
+                       FontAttributes="Bold" />
+                </Grid>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+</ContentPage>
