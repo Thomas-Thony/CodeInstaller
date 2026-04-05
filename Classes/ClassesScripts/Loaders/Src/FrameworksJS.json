@@ -1,44 +1,218 @@
 ﻿[
-  { "nom": "Angular", "version": "18.9", "liengithub": "https://github.com/angular/angular", "packagemanager": "npm", "logo": "https://angular.io/assets/images/logos/angular/angular.svg" },
-  { "nom": "AnyChart", "version": "7.13", "liengithub": null, "packagemanager": "npm", "logo": "https://www.anychart.com/images/anychart-logo.png" },
+  {
+    "nom": "Angular",
+    "version": "18.9",
+    "liengithub": "https://github.com/angular/angular",
+    "packagemanager": "npm",
+    "logo": "https://imgs.search.brave.com/4Yl8AW5wZX0fj_tD_-Z7hc_dCtIY2bth6xrKK8nMtLg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzE5OTgxMzIucG5n"
+  },
+  {
+    "nom": "AnyChart",
+    "version": "7.13",
+    "liengithub": null,
+    "packagemanager": "npm",
+    "logo": "https://imgs.search.brave.com/bD5QHwaC1QXCVISyJ65jZznvF2HIo_QA83LtP2BG5G4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hdmF0/YXJzLmdpdGh1YnVz/ZXJjb250ZW50LmNv/bS91LzcwMzM3Mz92/PTQmcz0xNjA"
+  },
   { "nom": "Apache ECharts", "version": "6.0", "liengithub": "https://github.com/apache/echarts", "packagemanager": "npm", "logo": "https://echarts.apache.org/en/images/logo.png" },
-  { "nom": "Babylon", "version": "8.49", "liengithub": "https://github.com/BabylonJS/Babylon.js", "packagemanager": "npm", "logo": "https://www.babylonjs.com/assets/images/babylonjs_identity_color.png" },
-  { "nom": "Chart", "version": "4.5", "liengithub": "https://github.com/chartjs/Chart.js", "packagemanager": "npm", "logo": "https://www.chartjs.org/img/chartjs-logo.svg" },
+  {
+    "nom": "Babylon",
+    "version": "8.49",
+    "liengithub": "https://github.com/BabylonJS/Babylon.js",
+    "packagemanager": "npm",
+    "logo": "https://imgs.search.brave.com/FZEcpPaOI2rmW-Wp9zyw5L35HbcGNfuVK81X1m3rh88/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzM2LzIvYmFieWxv/bi1qcy1sb2dvLXBu/Z19zZWVrbG9nby0z/NjQxMDUucG5n"
+  },
+  {
+    "nom": "Chart",
+    "version": "4.5",
+    "liengithub": "https://github.com/chartjs/Chart.js",
+    "packagemanager": "npm",
+    "logo": "https://imgs.search.brave.com/jW3cDMi6aryP16eorT_cAOdc5PAdfySXeUX2H-p04kQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzQ5LzIvY2hhcnQt/anMtbG9nby1wbmdf/c2Vla2xvZ28tNDk2/NDc4LnBuZw"
+  },
   { "nom": "D3", "version": "7.9", "liengithub": "https://github.com/d3/d3", "packagemanager": "npm", "logo": "https://raw.githubusercontent.com/d3/d3-logo/master/d3.png" },
   { "nom": "Chr", "version": "3.3", "liengithub": "https://github.com/fnogatz/CHR.js/", "packagemanager": "npm", "logo": "" },
   { "nom": "Google charts", "version": "54.0", "liengithub": null, "packagemanager": "npm", "logo": "https://www.gstatic.com/images/branding/product/2x/charts_64dp.png" },
-  { "nom": "Polymer", "version": "3.5", "liengithub": "https://github.com/Polymer/polymer", "packagemanager": "npm", "logo": "https://www.polymer-project.org/images/logos/p-logo.svg" },
+  {
+    "nom": "Polymer",
+    "version": "3.5",
+    "liengithub": "https://github.com/Polymer/polymer",
+    "packagemanager": "npm",
+    "logo": "https://imgs.search.brave.com/fQzFPQKYOo2Flx3GCDrsEM83bX6rowclNhX88lZKvJM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93ZWIt/Y29tcG9uZW50cy1y/ZXNvdXJjZXMuYXBw/c3BvdC5jb20vYXNz/ZXRzL2ltYWdlcy9h/LXF1aWNrLXBvbHlt/ZXItaW50cm8ucG5n"
+  },
   { "nom": "Dojotoolkit", "version": "8.0", "liengithub": "https://github.com/dojo/meta", "packagemanager": "npm", "logo": "https://dojotoolkit.org/images/logo.png" },
   { "nom": "Joint", "version": "4.0", "liengithub": null, "packagemanager": "npm", "logo": "" },
-  { "nom": "Jquery", "version": "4.0", "liengithub": "https://github.com/jquery/jquery", "packagemanager": "npm", "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/JQuery_logo.svg" },
-  { "nom": "Mootools", "version": "1.6", "liengithub": "https://github.com/mootools/mootools-core", "packagemanager": "npm", "logo": "" },
-  { "nom": "React", "version": "18.9", "liengithub": "https://github.com/facebook/react", "packagemanager": "npm", "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" },
-  { "nom": "Prototype", "version": "1.7", "liengithub": "https://github.com/prototypejs/prototype", "packagemanager": "npm", "logo": "" },
+  {
+    "nom": "Jquery",
+    "version": "4.0",
+    "liengithub": "https://github.com/jquery/jquery",
+    "packagemanager": "npm",
+    "logo": "https://imgs.search.brave.com/602-KFoqoYmB9ajcHC3mCC6oIw9AGL3nEHLmLQJ_L8o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL2ZyZWUv/cG5nLTI1Ni9mcmVl/LWpxdWVyeS1sb2dv/LWljb24tZG93bmxv/YWQtaW4tc3ZnLXBu/Zy1naWYtZmlsZS1m/b3JtYXRzLS1icmFu/ZC1kZXZlbG9wbWVu/dC10b29scy1wYWNr/LWxvZ29zLWljb25z/LTIyNTk5OC5wbmc_/Zj13ZWJwJnc9MjU2"
+  },
+  {
+    "nom": "Mootools",
+    "version": "1.6",
+    "liengithub": "https://github.com/mootools/mootools-core",
+    "packagemanager": "npm",
+    "logo": "https://imgs.search.brave.com/E_j0Wh0FNVkO_-G86gwS1BygRI5VQ03R7E5RSeyS0tI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzI3LzIvbW9vdG9v/bHMtbG9nby1wbmdf/c2Vla2xvZ28tMjcz/NzMwLnBuZw"
+  },
+  {
+    "nom": "React",
+    "version": "18.9",
+    "liengithub": "https://github.com/facebook/react",
+    "packagemanager": "npm",
+    "logo": "https://imgs.search.brave.com/DU3Yz5ErIiS0iHmgTeArdTWG9JgILClu-3YfIX9i8io/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MDgvUmVhY3QtTG9n/by01MDB4MjgxLnBu/Zw"
+  },
+  {
+    "nom": "Prototype",
+    "version": "1.7",
+    "liengithub": "https://github.com/prototypejs/prototype",
+    "packagemanager": "npm",
+    "logo": "https://imgs.search.brave.com/Hjtjd_Jt-Rm2d6EceDj86phEMGS2Q5Ydb6XtQrr5Y4Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kMXlq/am5weDBwNTNzOC5j/bG91ZGZyb250Lm5l/dC9zdHlsZXMvbG9n/by10aHVtYm5haWwv/czMvMDAxOS84NjUy/L2JyYW5kLmdpZj9p/dG9rPXFqTG1MYmpE.gif"
+  },
   { "nom": "Plotly", "version": "3.4", "liengithub": "https://github.com/plotly/plotly.js/", "packagemanager": "npm", "logo": "https://images.plot.ly/logo/new-branding/plotly-logomark.png" },
-  { "nom": "P5", "version": "2.2", "liengithub": "https://github.com/processing/p5.js", "packagemanager": "npm", "logo": "https://p5js.org/assets/img/p5js.svg" },
+  {
+    "nom": "P5",
+    "version": "2.2",
+    "liengithub": "https://github.com/processing/p5.js",
+    "packagemanager": "npm",
+    "logo": "https://imgs.search.brave.com/alUxxfL2CsZYQ1Y-OeX39xuuWU0V5yTNzR6R-xXMF80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wNWNy/ZWF0b3JzZ3VpZGUu/Z2l0aHViLmlvL2Ry/YXdpbmctZGVzaWdu/LWVkaXRpb24vaW1h/Z2UvcDVqcy1sb2dv/LnN2Zw"
+  },
   { "nom": "Raphael", "version": "2.3", "liengithub": null, "packagemanager": "yarn", "logo": "" },
-  { "nom": "Vue", "version": "3.4", "liengithub": "https://github.com/vuejs/vue", "packagemanager": "npm", "logo": "https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" },
+  {
+    "nom": "Vue",
+    "version": "3.4",
+    "liengithub": "https://github.com/vuejs/vue",
+    "packagemanager": "npm",
+    "logo": "https://imgs.search.brave.com/AfUf6OmoZETa9IUNPDuGFD_qxawF7wf_J2EViTXb-es/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy82/MmE3NGY4NTIyMzM0/M2ZiYzIyMDdkMDUu/cG5n"
+  },
   { "nom": "RGraph", "version": "0.0", "liengithub": "https://github.com/RGraph", "packagemanager": "npm/yarn", "logo": "" },
   { "nom": "SWFObject", "version": "2.2", "liengithub": "https://github.com/swfobject/swfobject", "packagemanager": "non disponible", "logo": "" },
   { "nom": "Teechart", "version": "0.0", "liengithub": null, "packagemanager": "non disponible", "logo": "" },
-  { "nom": "Three.js", "version": "164.0", "liengithub": "https://github.com/mrdoob/three.js", "packagemanager": "npm/yarn", "logo": "https://threejs.org/files/favicon.ico" },
-  { "nom": "Velocity.js", "version": "2.0", "liengithub": "https://github.com/julianshapiro/velocity", "packagemanager": "npm/yarn", "logo": "" },
-  { "nom": "Verge3D", "version": "0.0", "liengithub": "https://github.com/Soft8Soft", "packagemanager": "npm/yarn", "logo": "" },
-  { "nom": "Webix", "version": "0.0", "liengithub": "https://github.com/webix-hub", "packagemanager": "npm/yarn", "logo": "https://webix.com/wp-content/uploads/2019/12/webix-logo.png" },
-  { "nom": "Bootstrap", "version": "5.3", "liengithub": "https://github.com/twbs/bootstrap", "packagemanager": "npm/yarn", "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" },
-  { "nom": "Ext JS", "version": "0.0", "liengithub": null, "packagemanager": "non disponible", "logo": "" },
-  { "nom": "Foundation", "version": "6.7", "liengithub": "https://github.com/foundation/foundation-sites", "packagemanager": "npm/yarn", "logo": "https://get.foundation/assets/img/brand-logo.svg" },
-  { "nom": "jQuery UI", "version": "1.13", "liengithub": "https://github.com/jquery/jquery-ui", "packagemanager": "npm/yarn", "logo": "" },
+  {
+    "nom": "Three.js",
+    "version": "164.0",
+    "liengithub": "https://github.com/mrdoob/three.js",
+    "packagemanager": "npm/yarn",
+    "logo": "https://imgs.search.brave.com/YnvzvWw1bG4nKSGMfnXPQ6b7T4f27JEK_s9LSx8Vn5Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naXRo/dWIuY29tL1BvbHlt/b2xlL3RocmVlanMt/bG9nby9yYXcvbWFz/dGVyL3RocmVlanMt/YmcuanBn"
+  },
+  {
+    "nom": "Velocity.js",
+    "version": "2.0",
+    "liengithub": "https://github.com/julianshapiro/velocity",
+    "packagemanager": "npm/yarn",
+    "logo": "https://imgs.search.brave.com/cao5umtf0qZYRef4M0fwF426eaORIFkYV_jGhmZ4vwA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZzJjcm93ZC5j/b20vdXBsb2Fkcy9w/cm9kdWN0L2ltYWdl/L2xhcmdlX2RldGFp/bC9sYXJnZV9kZXRh/aWxfZTJmMmVkN2Fl/Y2Q2MDgxY2ZiMWQ1/MDAxYTNhYTA4YTcv/dmVsb2NpdHktanMu/anBn"
+  },
+  {
+    "nom": "Verge3D",
+    "version": "0.0",
+    "liengithub": "https://github.com/Soft8Soft",
+    "packagemanager": "npm/yarn",
+    "logo": "https://imgs.search.brave.com/lJ-1MSp56eX0ThSRcrSIQWRnVhgQA3cvqDGom8BSe1E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/Yi9iMy9WZXJnZTNE/X2xvZ28ucG5nLzI1/MHB4LVZlcmdlM0Rf/bG9nby5wbmc"
+  },
+  {
+    "nom": "Webix",
+    "version": "0.0",
+    "liengithub": "https://github.com/webix-hub",
+    "packagemanager": "npm/yarn",
+    "logo": "https://imgs.search.brave.com/d4DHV49YWN3EFpxIlOK3fDFEo_DBWecSiFewZBgLnuw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzM5LzMvd2ViaXgt/bG9nby1wbmdfc2Vl/a2xvZ28tMzk3MzQy/LnBuZw"
+  },
+  {
+    "nom": "Bootstrap",
+    "version": "5.3",
+    "liengithub": "https://github.com/twbs/bootstrap",
+    "packagemanager": "npm/yarn",
+    "logo": "https://imgs.search.brave.com/-2nvjLwHCLERDqSg1_AgIe3PCTRQa2y2NNDTNqzCDUw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9nZXRi/b290c3RyYXAuY29t/L2RvY3MvNS4wL2Fz/c2V0cy9icmFuZC9i/b290c3RyYXAtbG9n/by5zdmc"
+  },
+  {
+    "nom": "Ext JS",
+    "version": "0.0",
+    "liengithub": null,
+    "packagemanager": "non disponible",
+    "logo": "https://imgs.search.brave.com/Tmp6FJ_VVl59YabqiIzTdLnzaJHMWcRIurc9jlLp_m0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2VuY2hhLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMy8w/Ny9oZXJvLWNlbnRl/ci1pbWcuc3Zn"
+  },
+  {
+    "nom": "Foundation",
+    "version": "6.7",
+    "liengithub": "https://github.com/foundation/foundation-sites",
+    "packagemanager": "npm/yarn",
+    "logo": "https://imgs.search.brave.com/Z72tXTrIdDcOO9OthYJLWUeGPJdtBTi09lzjamqPh1I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zZWVr/dmVjdG9ybG9nby5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MTkvMTAvanMtZm91/bmRhdGlvbi12ZWN0/b3ItbG9nby5wbmc"
+  },
+  {
+    "nom": "jQuery UI",
+    "version": "1.13",
+    "liengithub": "https://github.com/jquery/jquery-ui",
+    "packagemanager": "npm/yarn",
+    "logo": "https://imgs.search.brave.com/oL15vWWahdwX5fEBWqRbe5tao1E3K9Cfel4HmUD4nmQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL0ovanF1ZXJ5/LXVpLWxvZ28tRDA1/MEVFQzUyMS1zZWVr/bG9nby5jb20ucG5n"
+  },
   { "nom": "jQWidgets", "version": "0.0", "liengithub": null, "packagemanager": "non disponible", "logo": "" },
-  { "nom": "OpenUI5", "version": "1.120", "liengithub": "https://github.com/SAP/openui5", "packagemanager": "npm/yarn", "logo": "https://openui5.hana.ondemand.com/resources/sap/ui/documentation/sdk/images/OpenUI5_new_big_side.png" },
-  { "nom": "qooxdoo", "version": "7.7", "liengithub": "https://github.com/qooxdoo/qooxdoo", "packagemanager": "npm/yarn", "logo": "" },
+  {
+    "nom": "OpenUI5",
+    "version": "1.120",
+    "liengithub": "https://github.com/SAP/openui5",
+    "packagemanager": "npm/yarn",
+    "logo": "https://imgs.search.brave.com/i9qS__Vo1_hHlau_a5hsrTxcvmIQcex_ya5bB-MNFVs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naXRo/dWIuY29tL1VJNS9v/cGVudWk1LXdlYnNp/dGUvcmF3L21haW4v/ZG9jcy9pbWFnZXMv/YnJhbmQvQl9PcGVu/VUk1X0guc3Zn"
+  },
+  {
+    "nom": "qooxdoo",
+    "version": "7.7",
+    "liengithub": "https://github.com/qooxdoo/qooxdoo",
+    "packagemanager": "npm/yarn",
+    "logo": "https://a.fsdn.com/allura/mirror/qooxdoo-javascript-fram/icon?13581a5fae17631503b21346ec0c5b4174867a9eb27739290fd5fad829c95440?&w=90"
+  },
   { "nom": "WinJS", "version": "4.4", "liengithub": "https://github.com/winjs/winjs", "packagemanager": "npm/yarn", "logo": "" },
-  { "nom": "Svelte", "version": "4.2", "liengithub": "https://github.com/sveltejs/svelte", "packagemanager": "npm/yarn", "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" },
-  { "nom": "Express.js", "version": "4.18", "liengithub": "https://github.com/expressjs/express", "packagemanager": "npm/yarn", "logo": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" },
-  { "nom": "Next.js", "version": "14.0", "liengithub": "https://github.com/vercel/next.js", "packagemanager": "npm/yarn", "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" },
-  { "nom": "Nuxt.js", "version": "3.0", "liengithub": "https://github.com/nuxt/nuxt", "packagemanager": "npm/yarn", "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Nuxt_logo.svg" },
-  { "nom": "Ember.js", "version": "5.0", "liengithub": "https://github.com/emberjs/ember.js", "packagemanager": "npm/yarn", "logo": "https://upload.wikimedia.org/wikipedia/commons/6/69/Ember.js_Logo_and_Mascot.png" },
-  { "nom": "Backbone.js", "version": "1.5", "liengithub": "https://github.com/jashkenas/backbone", "packagemanager": "npm/yarn", "logo": "" },
-  { "nom": "TensorFlow.js", "version": "4.0", "liengithub": "https://github.com/tensorflow/tfjs", "packagemanager": "npm/yarn", "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" },
-  { "nom": "Brain.js", "version": "2.0", "liengithub": "https://github.com/BrainJS/brain.js", "packagemanager": "npm/yarn", "logo": "" }
+  {
+    "nom": "Svelte",
+    "version": "4.2",
+    "liengithub": "https://github.com/sveltejs/svelte",
+    "packagemanager": "npm/yarn",
+    "logo": "https://imgs.search.brave.com/byDXt86pVVNQh1TD5SGS9uZi_wLYJRd-aQ7XbzSa5T4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG9n/LmVsZXZlbi1sYWJz/LmNvbS9pbWdzL2Fy/dGljbGVzLzIwMjEt/MDItMjItYS1sYS1k/ZWNvdXZlcnRlLWRl/LXN2ZWx0ZS9zdmVs/dGUtbG9nby5wbmc"
+  },
+  {
+    "nom": "Express.js",
+    "version": "4.18",
+    "liengithub": "https://github.com/expressjs/express",
+    "packagemanager": "npm/yarn",
+    "logo": "https://imgs.search.brave.com/DtNCSyp_FVdPovtgSZ76Gm444n0AZZobWAawXwtWFzE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wNy5o/aWNsaXBhcnQuY29t/L3ByZXZpZXcvODQ2/Lzg3LzYwNC9tZWFu/LXNvbHV0aW9uLXN0/YWNrLWV4cHJlc3Mt/anMtbm9kZS1qcy1q/YXZhc2NyaXB0LWdp/dGh1Yi10aHVtYm5h/aWwuanBn"
+  },
+  {
+    "nom": "Next.js",
+    "version": "14.0",
+    "liengithub": "https://github.com/vercel/next.js",
+    "packagemanager": "npm/yarn",
+    "logo": "https://imgs.search.brave.com/zibqjkvtBQMs_gGppDx8qfpsjnW83MymUF8ByVp3bac/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/d2lrLmNvbS9jb250/ZW50L3VwbG9hZHMv/aW1hZ2VzL3RfbmV4/dGpzNzY4NS5sb2dv/d2lrLmNvbS53ZWJw"
+  },
+  {
+    "nom": "Nuxt.js",
+    "version": "3.0",
+    "liengithub": "https://github.com/nuxt/nuxt",
+    "packagemanager": "npm/yarn",
+    "logo": "https://imgs.search.brave.com/dBDJNoY_w-EEgJrNoxjOdDDrlvqAQzzyeaMM5YdYxtQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy80/LzQ1L051eHRKU19M/b2dvLnBuZw"
+  },
+  {
+    "nom": "Ember.js",
+    "version": "5.0",
+    "liengithub": "https://github.com/emberjs/ember.js",
+    "packagemanager": "npm/yarn",
+    "logo": "https://imgs.search.brave.com/xEqXkAzqRJvgSXiJphgX9fIp8RBrDyb1RThM-aGE3js/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/Ym5haWwuaW1nYmlu/LmNvbS8xNC8xNC8y/MC9pbWdiaW4tZW1i/ZXItanMtamF2YXNj/cmlwdC1sb2dvLWFu/Z3VsYXJqcy1zb2Z0/d2FyZS1kZXZlbG9w/bWVudC1zdWJsaW1l/LXRleHQtaWNvbi1I/dEtEdGZiUHExOGZw/cnJKMjZyTUZHajB2/X3QuanBn"
+  },
+  {
+    "nom": "Backbone.js",
+    "version": "1.5",
+    "liengithub": "https://github.com/jashkenas/backbone",
+    "packagemanager": "npm/yarn",
+    "logo": "https://imgs.search.brave.com/cFb5D6qPF5_Lii99_QlzCuDS8445rN0xKWQmYu1XdDs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL3RodW1icy82/MmE4NjQ0YjE0YTM4/Y2NlMGMzNzFiZmEu/cG5n"
+  },
+  {
+    "nom": "TensorFlow.js",
+    "version": "4.0",
+    "liengithub": "https://github.com/tensorflow/tfjs",
+    "packagemanager": "npm/yarn",
+    "logo": "https://imgs.search.brave.com/x1ES0HHTGweoefuknwsmtZY2s5clb4gUvH-E9PF7aP0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hbGwt/YXBpLmZyL2FwaS1s/b2dvL3RlbnNvcmZs/b3cud2VicA"
+  },
+  {
+    "nom": "Brain.js",
+    "version": "2.0",
+    "liengithub": "https://github.com/BrainJS/brain.js",
+    "packagemanager": "npm/yarn",
+    "logo": "https://imgs.search.brave.com/jbY5L1dl560opIzP7PvZtHBUYZgZQt2BZVsWWPKf8Tw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG9n/LnB3c2tpbGxzLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/NS8xMS9zY3JlZW5z/aG90LTIwMjUtMTEt/MTgtYXQtMTIyMDI5/LXBtLTY5MWMxNzdk/M2U5NjAud2VicA"
+  }
 ]

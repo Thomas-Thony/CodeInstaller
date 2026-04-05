@@ -11,8 +11,8 @@ namespace CodeInstaller.Classes
         private decimal version;
         private string documentationGithub;
         private PackageManager pm;
-        private List<string> lesVersions; // A implémenter plus tard...
-        private string logo; // Changer le lien des logos qui ne répondent pas dans le json
+        private List<string> lesVersions;
+        private string logo;
 
         public Framework(string aNom, decimal uneVersion, string lienDocGithub, PackageManager aPm, string unLogo) {
             this.Nom = aNom;

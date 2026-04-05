@@ -4,7 +4,7 @@
              x:Class="CodeInstaller.Screens.MenuChoixFramework"
              xmlns:viewmodels="clr-namespace:CodeInstaller.Classes"
              Title="MenuChoixFramework">
-    <CollectionView x:Name="lesFrameworks">
+    <CollectionView x:Name="lesFrameworks" ItemsLayout="VerticalGrid,3">
         <CollectionView.ItemTemplate>
             <DataTemplate x:DataType="viewmodels:Langage">
                 <Grid Padding="10">
@@ -25,6 +25,12 @@
                     <Label Grid.Column="1"
                        Text="{Binding Nom}"
                        FontAttributes="Bold" />
+                    <!--
+                    <Button
+                     Text="Créer"
+                     Clicked="CreateProjet"   
+                     />
+                    -->
                 </Grid>
             </DataTemplate>
         </CollectionView.ItemTemplate>

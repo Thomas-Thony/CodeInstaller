@@ -7,4 +7,8 @@ public partial class MenuChoixFramework : ContentPage {
 		InitializeComponent();
         lesFrameworks.ItemsSource = new List<Framework>(aLangage.Frameworks.Values);
     }
+
+    private void CreateProjet(object sender, EventArgs e) {
+
+    }
 }
