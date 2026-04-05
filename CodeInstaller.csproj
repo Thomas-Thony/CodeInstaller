@@ -72,12 +72,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Content Include=".github\dependabot.yaml" />
 	  <Content Include="Classes\ClassesScripts\Loaders\Src\FrameworksJS.json">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </Content>
 	  <Content Include="Classes\ClassesScripts\Loaders\Src\frameworksPHP.json">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </Content>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include=".github\CODEOWNERS" />
+	  <None Include=".github\CONTRIBUTING.md" />
 	</ItemGroup>
 
 	<ItemGroup>
