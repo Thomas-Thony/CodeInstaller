@@ -3,35 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CodeInstaller.Screens.MenuChoixFramework"
              xmlns:viewmodels="clr-namespace:CodeInstaller.Classes"
-             Title="MenuChoixFramework">
-    <CollectionView x:Name="lesFrameworks" ItemsLayout="VerticalGrid,3">
+             Title="Choix du framework">
+    <CollectionView x:Name="lesFrameworks" ItemsLayout="VerticalGrid,3" SelectionMode="Single">
         <CollectionView.ItemTemplate>
             <DataTemplate x:DataType="viewmodels:Langage">
-                <Grid Padding="10">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="Auto" />
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto" />
-                        <ColumnDefinition Width="Auto" />
-                    </Grid.ColumnDefinitions>
-                    <Image Grid.RowSpan="2"
-                       Source="{Binding Logo}"
-                       Aspect="AspectFill"
-                       HeightRequest="60"
-                       WidthRequest="60"/>
-
-                    <Label Grid.Column="1"
-                       Text="{Binding Nom}"
-                       FontAttributes="Bold" />
-                    <!--
-                    <Button
-                     Text="Créer"
-                     Clicked="CreateProjet"   
+                <Border Stroke="#efefef">
+                    <FlexLayout Direction="ColumnReverse" Wrap="Wrap">
+                    <Label 
+                        Grid.Row="1"
+                        Text="{Binding Nom}"
+                        FontAttributes="Bold"
                      />
-                    -->
-                </Grid>
+
+                     <Image 
+                         Source="{Binding Logo}"
+                         Aspect="AspectFill"
+                         HeightRequest="60"
+                         WidthRequest="60"
+                        />
+
+                       <Button
+                          Grid.Column="1"
+                          Grid.Row="4"
+                          Text="Créer"
+                          Clicked="CreateProjet"
+                          MaximumWidthRequest="70"
+                          MaximumHeightRequest="70"
+                        />
+                    </FlexLayout>
+                </Border>
             </DataTemplate>
         </CollectionView.ItemTemplate>
     </CollectionView>
