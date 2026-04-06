@@ -13,7 +13,18 @@ Evidemment, des commentaires sur vos ajouts sont très appréciés.
 
 #### Ajouter un nouveau langage 
 
-Vous pouvez ajouter un nouveau langage, créez un fichier frameworksLeLangage.json dans le dossier ./Classes/ClassesScripts/Loaders/Src/.
+Vous pouvez ajouter un nouveau langage, créez un fichier frameworksLeLangage.json dans le dossier ./Classes/ClassesScripts/Loaders/Src/ sous cette forme :
+```json
+[
+    {
+        "nom": "React",
+        "version": "18 3",
+        "liengithub": "https://github.com/facebook/react/",
+        "packagemanager":"npm",
+        "logo":"https://github.com/facebook/react/src/logo.svg"
+    },
+]
+```
 Ensuite, dans le fichier LoadFrameworks.cs créez un HashMap (ou dictionnaire) tel que :
 ```csharp
 public class LoadFrameworks {
