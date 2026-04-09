@@ -58,7 +58,7 @@
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
 		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
-		
+
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
 
@@ -67,40 +67,45 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Classes\ClassesScripts\Loaders\Src\FrameworksJS.json" />
-	  <None Remove="Classes\ClassesScripts\Loaders\Src\frameworksPHP.json" />
+		<None Remove="Classes\ClassesScripts\Loaders\Src\FrameworksJS.json" />
+		<None Remove="Classes\ClassesScripts\Loaders\Src\frameworksPHP.json" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Content Include=".github\dependabot.yaml" />
-	  <Content Include="Classes\ClassesScripts\Loaders\Src\FrameworksJS.json">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </Content>
-	  <Content Include="Classes\ClassesScripts\Loaders\Src\frameworksPHP.json">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </Content>
+		<Content Include=".github\dependabot.yaml" />
+		<Content Include="Classes\ClassesScripts\Loaders\Src\FrameworksJS.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Classes\ClassesScripts\Loaders\Src\frameworksPHP.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Include=".github\CODEOWNERS" />
-	  <None Include=".github\CONTRIBUTING.md" />
+		<None Include=".github\CODEOWNERS" />
+		<None Include=".github\CONTRIBUTING.md" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Maui" Version="14.1.0" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="10.0.41" />
+		<PackageReference Include="Microsoft.Maui.Essentials" Version="10.0.41" />
 		<PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
-		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 		<PackageReference Include="Vse.Web.Serialization.ControlledSerializationJsonConverter" Version="1.0.4" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Screens\MenuChoixFramework.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Screens\MenuCreationProjet.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
+		<MauiXaml Update="Screens\Confirmation.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Screens\MenuChoixFramework.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="Screens\MenuCreationProjet.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
 	</ItemGroup>
 
 </Project>

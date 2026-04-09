@@ -2,6 +2,7 @@
   {
     "nom": "Laravel",
     "version": "10.48",
+    "nompackage": "laravel/laravel",
     "liengithub": "https://github.com/laravel/laravel",
     "packagemanager": "composer",
     "logo": "https://s1.qwant.com/thumbr/474x474/3/1/40f482d0f67da8830714e8b5e2b4c5fecb2cf222f6507698252aa40ab977dd/OIP.Hh_tEbIb4-MagJsV6x_RZwHaHa.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.Hh_tEbIb4-MagJsV6x_RZwHaHa%3Fpid%3DApi&q=0&b=1&p=0&a=0"
@@ -9,6 +10,7 @@
   {
     "nom": "Symfony",
     "version": "6.4",
+    "nompackage": "symfony/skeleton",
     "liengithub": "https://github.com/symfony/symfony",
     "packagemanager": "composer",
     "logo": "https://symfony.com/logos/symfony_black_03.png"
@@ -16,6 +18,7 @@
   {
     "nom": "CodeIgniter",
     "version": "4.4",
+    "nompackage": "codeigniter4/appstarter",
     "liengithub": "https://github.com/codeigniter4/CodeIgniter4",
     "packagemanager": "composer",
     "logo": "https://s2.qwant.com/thumbr/474x562/5/3/646d836ae353dd9d07681f834d2baae3c3410ce5a86797214f7dd11d615245/OIP.hA-HZwo23jgVX0mxLGRD9AHaIy.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.hA-HZwo23jgVX0mxLGRD9AHaIy%3Fpid%3DApi&q=0&b=1&p=0&a=0"
@@ -23,6 +26,7 @@
   {
     "nom": "Yii PHP Framework",
     "version": "2.0",
+    "nompackage": "yiisoft/yii2-app-basic",
     "liengithub": "https://github.com/yiisoft/yii2",
     "packagemanager": "composer",
     "logo": "https://s1.qwant.com/thumbr/474x339/b/f/45517880fa6201172656547f392849741eb627803a99d1c8d7c498e17885a2/OIP.SAGlYwAlpgF3JUC8I6HcgQHaFT.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.SAGlYwAlpgF3JUC8I6HcgQHaFT%3Fpid%3DApi&q=0&b=1&p=0&a=0"
@@ -30,6 +34,7 @@
   {
     "nom": "PHPUnit",
     "version": "10.5",
+    "nompackage": "phpunit/phpunit",
     "liengithub": "https://github.com/sebastianbergmann/phpunit",
     "packagemanager": "composer",
     "logo": "https://s1.qwant.com/thumbr/474x474/2/5/11fa70db36bd36f1ac336ff095c8252f4cfabe64a9ea14e9c029babbbb0500/OIP.X1Aldsl76riXbhQ1Y8V51wHaHa.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.X1Aldsl76riXbhQ1Y8V51wHaHa%3Fpid%3DApi&q=0&b=1&p=0&a=0"
@@ -37,6 +42,7 @@
   {
     "nom": "Phalcon Framework",
     "version": "5.4",
+    "nompackage": "phalcon/cphalcon",
     "liengithub": "https://github.com/phalcon/cphalcon",
     "packagemanager": "pecl/composer",
     "logo": "https://s2.qwant.com/thumbr/220x107/f/e/378a7979eef22438a591a4126ee778c945bf4e765fadda59ac53ad6559d22a/OIP.Qb43tzLlPTpz-C-OKxs2RwAAAA.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.Qb43tzLlPTpz-C-OKxs2RwAAAA%3Fpid%3DApi&q=0&b=1&p=0&a=0"
@@ -44,6 +50,7 @@
   {
     "nom": "CakePHP",
     "version": "5.0",
+    "nompackage": "cakephp/app",
     "liengithub": "https://github.com/cakephp/cakephp",
     "packagemanager": "composer",
     "logo": "https://s2.qwant.com/thumbr/292x166/7/0/b1b9d4c38171e4d8339b8ee6afb88e7e2ed8e6facb1a3c81e232d584c26bf0/OIP.rCAAfyPUykmxezi4UNyl0gAAAA.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.rCAAfyPUykmxezi4UNyl0gAAAA%3Fpid%3DApi&q=0&b=1&p=0&a=0"
@@ -51,6 +58,7 @@
   {
     "nom": "Slim Framework",
     "version": "4.12",
+    "nompackage": "slim/slim-skeleton",
     "liengithub": "https://github.com/slimphp/Slim",
     "packagemanager": "composer",
     "logo": "https://s1.qwant.com/thumbr/474x296/a/8/4dfdc9dab0eceaa2a6e01884301cd5756817bc08d0b631b29788e0d6d7d72e/OIP.klT1BbEVqgEIA_gcX4xoJgHaEo.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.klT1BbEVqgEIA_gcX4xoJgHaEo%3Fpid%3DApi&q=0&b=1&p=0&a=0"
@@ -58,6 +66,7 @@
   {
     "nom": "Zend Framework",
     "version": "3.0",
+    "nompackage": "zendframework/zendframework",
     "liengithub": "https://github.com/zendframework/zendframework",
     "packagemanager": "composer",
     "logo": "https://s2.qwant.com/thumbr/474x263/6/a/6585cd5f6d45c7632c91ec7690ca336e6f5bbf7538f246f947a0ef2c0202cd/OIP.mpEF_wLIX1SAfYfq6FjERQHaEH.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.mpEF_wLIX1SAfYfq6FjERQHaEH%3Fpid%3DApi&q=0&b=1&p=0&a=0"
@@ -65,6 +74,7 @@
   {
     "nom": "Lumen PHP Framework",
     "version": "10.0",
+    "nompackage": "laravel/lumen",
     "liengithub": "https://github.com/laravel/lumen",
     "packagemanager": "composer",
     "logo": "https://s2.qwant.com/thumbr/474x240/6/2/c11e9b256b6d45183cda24e8c3f41aef5908cffdb1c48004bf0b8f53c43441/OIP.S3R3Xp1EtH8b03kJEqTtlgHaDw.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.S3R3Xp1EtH8b03kJEqTtlgHaDw%3Fpid%3DApi&q=0&b=1&p=0&a=0"
@@ -72,6 +82,7 @@
   {
     "nom": "FuelPHP",
     "version": "1.9",
+    "nompackage": "fuel/fuel",
     "liengithub": "https://github.com/fuel/fuel",
     "packagemanager": "composer",
     "logo": "https://s2.qwant.com/thumbr/474x412/f/d/761191abed0f0af4f0d647128c6b6cae02f09b66e9d6490aa34bfcb9ba0b54/OIP.2v33JPkIVxoQKOJyqYO1rgHaGc.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.2v33JPkIVxoQKOJyqYO1rgHaGc%3Fpid%3DApi&q=0&b=1&p=0&a=0"
@@ -79,6 +90,7 @@
   {
     "nom": "Fat-Free Framework",
     "version": "3.8",
+    "nompackage": "bcosca/fatfree",
     "liengithub": "https://github.com/bcosca/fatfree",
     "packagemanager": "composer",
     "logo": "https://s2.qwant.com/thumbr/474x268/6/4/05aa62dae8f3b68e3b9d6d571f4f3e7ff16ca71f0c966566d050d5f659e19b/OIP.uE7XGnsVrV1EyOFpDoVjDgHaEM.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.uE7XGnsVrV1EyOFpDoVjDgHaEM%3Fpid%3DApi&q=0&b=1&p=0&a=0"
@@ -86,6 +98,7 @@
   {
     "nom": "Silex",
     "version": "2.3",
+    "nompackage": "silex/silex",
     "liengithub": "https://github.com/silexphp/Silex",
     "packagemanager": "composer",
     "logo": "https://s1.qwant.com/thumbr/140x54/b/b/07a794c91d2ba0e8e5f76cfe0ae37d12f67b2cb2ee3b253c6601ae46101990/OIP.3lJxM_WjaFJBrRKoNQxY4wAAAA.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.3lJxM_WjaFJBrRKoNQxY4wAAAA%3Fpid%3DApi&q=0&b=1&p=0&a=0"
@@ -93,6 +106,7 @@
   {
     "nom": "Nette Framework",
     "version": "3.2",
+    "nompackage": "nette/web-project",
     "liengithub": "https://github.com/nette/nette",
     "packagemanager": "composer",
     "logo": "https://s1.qwant.com/thumbr/474x252/3/1/274079f9d591d203e37e31f39bf8612d262418886c97df5c730d3fac6ef4c0/OIP.Gjkxipo2nZFSsRul5Rf11AHaD8.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.Gjkxipo2nZFSsRul5Rf11AHaD8%3Fpid%3DApi&q=0&b=1&p=0&a=0"
@@ -100,6 +114,7 @@
   {
     "nom": "Flight",
     "version": "1.3",
+    "nompackage": "mikecao/flight",
     "liengithub": "https://github.com/mikecao/flight",
     "packagemanager": "composer",
     "logo": "https://s2.qwant.com/thumbr/474x355/7/c/39a4df431bd4b7f36d8451909c0c9313d3d93434c7c6a3f9733fab9b751b94/OIP.BgFzXxI15ePPn1wLfE7KFgHaFj.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.BgFzXxI15ePPn1wLfE7KFgHaFj%3Fpid%3DApi&q=0&b=1&p=0&a=0"
@@ -107,6 +122,7 @@
   {
     "nom": "Medoo",
     "version": "2.1",
+    "nompackage": "catfan/medoo",
     "liengithub": "https://github.com/catfan/Medoo",
     "packagemanager": "composer",
     "logo": "https://s2.qwant.com/thumbr/256x256/5/f/06dbb227afcb126e6a27c42049a4a00970ddc102da085047942bf8798b9ae0/OIP.n_Soke6k4lf1hQug6U7ItQAAAA.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.n_Soke6k4lf1hQug6U7ItQAAAA%3Fpid%3DApi&q=0&b=1&p=0&a=0"
@@ -114,6 +130,7 @@
   {
     "nom": "Behat",
     "version": "3.13",
+    "nompackage": "behat/behat",
     "liengithub": "https://github.com/Behat/Behat",
     "packagemanager": "composer",
     "logo": "https://s2.qwant.com/thumbr/474x208/c/3/b9edaa10cf1e9281e4106a301c14bc724ad1fe38876493d9ac7dc46ef70bb0/OIP.zeFUTWzOcrQm4aORR9MxxQHaDQ.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.zeFUTWzOcrQm4aORR9MxxQHaDQ%3Fpid%3DApi&q=0&b=1&p=0&a=0"
@@ -121,6 +138,7 @@
   {
     "nom": "Mockery",
     "version": "1.6",
+    "nompackage": "mockery/mockery",
     "liengithub": "https://github.com/mockery/mockery",
     "packagemanager": "composer",
     "logo": ""
@@ -128,156 +146,9 @@
   {
     "nom": "phpspec",
     "version": "7.3",
+    "nompackage": "phpspec/phpspec",
     "liengithub": "https://github.com/phpspec/phpspec",
     "packagemanager": "composer",
     "logo": "https://s1.qwant.com/thumbr/261x261/0/9/931e85eb424b551b2b7604d6e6b7949d7cf0ef6cec3086add40719edaaa4d6/OIP.3gjSZhZXccuSd-l_H-A4kAAAAA.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.3gjSZhZXccuSd-l_H-A4kAAAAA%3Fpid%3DApi&q=0&b=1&p=0&a=0"
-  },
-  {
-    "nom": "Codeception",
-    "version": "5.0",
-    "liengithub": "https://github.com/Codeception/Codeception",
-    "packagemanager": "composer",
-    "logo": "https://s2.qwant.com/thumbr/474x237/c/6/d3461f15fa532b8155dbd20573fab13c6e0f18c973304c0c6a62803ce1379c/OIP.Sk_bUhHuOt7EFE4Ejij2vAHaDt.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.Sk_bUhHuOt7EFE4Ejij2vAHaDt%3Fpid%3DApi&q=0&b=1&p=0&a=0"
-  },
-  {
-    "nom": "Atoum",
-    "version": "4.0",
-    "liengithub": "https://github.com/atoum/atoum",
-    "packagemanager": "composer",
-    "logo": "https://s2.qwant.com/thumbr/474x474/c/3/25dc3c1484b6efefc3e2e6ce9e094624fc05ade86548bf2b8e80661afa031f/OIP.CXvl3vynPzSYYZkV5iEblgHaHa.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.CXvl3vynPzSYYZkV5iEblgHaHa%3Fpid%3DApi&q=0&b=1&p=0&a=0"
-  },
-  {
-    "nom": "Workerman",
-    "version": "4.1",
-    "liengithub": "https://github.com/walkor/workerman",
-    "packagemanager": "composer",
-    "logo": "https://s1.qwant.com/thumbr/474x189/8/5/a82fc00ed5b1f0d303ef08cade1cef8d6983e84201a0f7c41400ddd31e1fad/OIP.9rfuLSNIA_IQLcc0V4TfmwHaC9.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.9rfuLSNIA_IQLcc0V4TfmwHaC9%3Fpid%3DApi&q=0&b=1&p=0&a=0"
-  },
-  {
-    "nom": "Swoole",
-    "version": "5.1",
-    "liengithub": "https://github.com/swoole/swoole-src",
-    "packagemanager": "pecl/composer",
-    "logo": "https://s2.qwant.com/thumbr/474x284/7/d/3c6da89d2209cd7ef7c793768247aa80ad69a78ad83550b09fd9d4e5bb1027/OIP.GRfr-pcG-P7ZpzHUl_LtkwHaEc.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.GRfr-pcG-P7ZpzHUl_LtkwHaEc%3Fpid%3DApi&q=0&b=1&p=0&a=0"
-  },
-  {
-    "nom": "SabreDAV",
-    "version": "4.5",
-    "liengithub": "https://github.com/sabre-io/dav",
-    "packagemanager": "composer",
-    "logo": "https://s2.qwant.com/thumbr/474x114/c/d/44d45ff8f8b1b72e7e4117fc836ac71508fb10912679bba7d49188e465bf1e/OIP.fgLKacjt8XEPV2ViVozWGgHaBy.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.fgLKacjt8XEPV2ViVozWGgHaBy%3Fpid%3DApi&q=0&b=1&p=0&a=0"
-  },
-  {
-    "nom": "Opauth",
-    "version": "1.0",
-    "liengithub": "https://github.com/opauth/opauth",
-    "packagemanager": "composer",
-    "logo": "https://s2.qwant.com/thumbr/280x280/c/1/b89757b77214c9a60beacb9166af5af0f4f94293de1d1427cef4ed8e0257e6/OIP.UjM64qtUZbohc4MnC7CXIQAAAA.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.UjM64qtUZbohc4MnC7CXIQAAAA%3Fpid%3DApi&q=0&b=1&p=0&a=0"
-  },
-
-  {
-    "nom": "Ice Framework",
-    "version": "0.0",
-    "liengithub": "",
-    "packagemanager": "composer",
-    "logo": "https://s2.qwant.com/thumbr/474x259/f/0/11bd29e340dda54b953a928bf8f20e21ff44767c6404f0ff6a197a11834021/OIP.ll95_ZHXA7m-1Bbn7N3XogHaED.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.ll95_ZHXA7m-1Bbn7N3XogHaED%3Fpid%3DApi&q=0&b=1&p=0&a=0"
-  },
-  {
-    "nom": "QueryPHP",
-    "version": "0.0",
-    "liengithub": "",
-    "packagemanager": "composer",
-    "logo": ""
-  },
-  {
-    "nom": "Zest Framework",
-    "version": "0.0",
-    "liengithub": "",
-    "packagemanager": "composer",
-    "logo": ""
-  },
-  {
-    "nom": "Willer Framework",
-    "version": "0.0",
-    "liengithub": "",
-    "packagemanager": "composer",
-    "logo": "https://img.alternativeto.net/icons/140/avif/willer-framework_80909.png"
-  },
-  {
-    "nom": "CrossPHP",
-    "version": "0.0",
-    "liengithub": "",
-    "packagemanager": "composer",
-    "logo": "https://s1.qwant.com/thumbr/283x217/9/1/26f043e06f04aa04a2c1f758e8da222c1b6f166803423dff0f23fb9d2f7868/OIP.R1syjRC6yp_N5GaXs55w-gAAAA.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.R1syjRC6yp_N5GaXs55w-gAAAA%3Fpid%3DApi&q=0&b=1&p=0&a=0"
-  },
-  {
-    "nom": "TinyMVC",
-    "version": "0.0",
-    "liengithub": "",
-    "packagemanager": "composer",
-    "logo": "https://s2.qwant.com/thumbr/80x15/4/6/53bc29aaff9c28cf7758dd02b49dc1884becf54195cf0b89883a4027e978fe/OIP.hSjIT2CYW6_Lgfh7c05hmgAAAA.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.hSjIT2CYW6_Lgfh7c05hmgAAAA%3Fpid%3DApi&q=0&b=1&p=0&a=0"
-  },
-  {
-    "nom": "Kohana",
-    "version": "3.3",
-    "liengithub": "https://github.com/kohana/kohana",
-    "packagemanager": "composer",
-    "logo": "https://s2.qwant.com/thumbr/300x300/d/3/bd673b5af77a57e587ead7d4d12374af0242b11fb45788e1683c852c5a1327/OIP.GRvbpLt-1yr1-mY4xN0hngAAAA.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.GRvbpLt-1yr1-mY4xN0hngAAAA%3Fpid%3DApi&q=0&b=1&p=0&a=0"
-  },
-  {
-    "nom": "Aura",
-    "version": "2.0",
-    "liengithub": "https://github.com/auraphp/Aura.Framework",
-    "packagemanager": "composer",
-    "logo": "https://s1.qwant.com/thumbr/474x474/b/c/f00baeaa76a7d9ee0066a59a37453d853cf9ebf6c326812e6429e41f4f7b2f/OIP.3fbbassj-Cso7CfGMCvJGQHaHa.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.3fbbassj-Cso7CfGMCvJGQHaHa%3Fpid%3DApi&q=0&b=1&p=0&a=0"
-  },
-  {
-    "nom": "PHPixie",
-    "version": "3.0",
-    "liengithub": "https://github.com/phpixie/framework",
-    "packagemanager": "composer",
-    "logo": "https://s2.qwant.com/thumbr/474x197/7/f/4f9960f590d10e18674eb79708e4251ee27c518cde84f3ec20e1b1dab70f9a/OIP.WK6K7DrHdznSYUn8u9uepAHaDF.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.WK6K7DrHdznSYUn8u9uepAHaDF%3Fpid%3DApi&q=0&b=1&p=0&a=0"
-  },
-  {
-    "nom": "Jelix",
-    "version": "1.8",
-    "liengithub": "https://github.com/jelix/jelix",
-    "packagemanager": "composer",
-    "logo": "https://s1.qwant.com/thumbr/266x90/b/e/5fbdcc0d301efa1dd3122fa6eab317c6dca055527a8523b3eb47352c3da9c8/OIP.Xyi29FR_abu8mHfjF5iZDAAAAA.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.Xyi29FR_abu8mHfjF5iZDAAAAA%3Fpid%3DApi&q=0&b=1&p=0&a=0"
-  },
-  {
-    "nom": "DooPHP",
-    "version": "2.1",
-    "liengithub": "https://github.com/doophp/doophp",
-    "packagemanager": "composer",
-    "logo": "https://s2.qwant.com/thumbr/474x252/e/3/92a4dceae6d5a6f1038813834947443fb319914fa838d72b56e72ed20c5d8e/OIP.-qMh-S1ZtBuH5YmOPKyAfAHaD8.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.-qMh-S1ZtBuH5YmOPKyAfAHaD8%3Fpid%3DApi&q=0&b=1&p=0&a=0"
-  },
-  {
-    "nom": "Limonade",
-    "version": "1.0",
-    "liengithub": "https://github.com/sofadesign/limonade",
-    "packagemanager": "composer",
-    "logo": "https://s1.qwant.com/thumbr/140x141/8/7/78aada68ac78c59f5f8f1a71038fc8923a26d7c5026dbf7565d06dcd08eac4/OIP.t2m0fsoznGLbRC7d40mklgAAAA.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.t2m0fsoznGLbRC7d40mklgAAAA%3Fpid%3DApi&q=0&b=1&p=0&a=0"
-  },
-  {
-    "nom": "SilverStripe",
-    "version": "5.0",
-    "liengithub": "https://github.com/silverstripe/silverstripe-framework",
-    "packagemanager": "composer",
-    "logo": "https://s2.qwant.com/thumbr/474x490/c/7/b4c94097eddc362dbcdebe438aa85268be3b7d4d6edbb1364ce6c9d2e83aa4/OIP.YDz65lkI_DQXydCXyB7zdAHaHq.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.YDz65lkI_DQXydCXyB7zdAHaHq%3Fpid%3DApi&q=0&b=1&p=0&a=0"
-  },
-  {
-    "nom": "TYPO3 Flow",
-    "version": "8.3",
-    "liengithub": "https://github.com/neos/flow",
-    "packagemanager": "composer",
-    "logo": "https://s2.qwant.com/thumbr/474x200/f/0/ce3a51182b9a5f49f37f156e45653604ab14466d99dd030ff18b3a06f5f7ef/OIP.AyenIjibfNFABUcnahJ3cQHaDI.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.AyenIjibfNFABUcnahJ3cQHaDI%3Fpid%3DApi&q=0&b=1&p=0&a=0"
-  },
-  {
-    "nom": "Horde Application Framework",
-    "version": "5.2",
-    "liengithub": "https://github.com/horde/horde",
-    "packagemanager": "composer",
-    "logo": "https://s1.qwant.com/thumbr/178x60/2/f/a40e47b655a8ff889a2415d8316fe7186d6408590f39191e60295220021ced/OIP.moN148EFM5R9rNwAMFoVxgAAAA.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.moN148EFM5R9rNwAMFoVxgAAAA%3Fpid%3DApi&q=0&b=1&p=0&a=0"
   }
 ]

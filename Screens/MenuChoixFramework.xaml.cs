@@ -8,7 +8,7 @@ public partial class MenuChoixFramework : ContentPage {
         lesFrameworks.ItemsSource = new List<Framework>(aLangage.Frameworks.Values);
     }
 
-    private void CreateProjet(object sender, EventArgs e) {
-
+    async void CreateProjet(object sender, EventArgs e) {
+       await Navigation.PushAsync(new Confirmation());
     }
 }

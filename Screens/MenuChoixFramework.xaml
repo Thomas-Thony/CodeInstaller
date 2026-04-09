@@ -8,7 +8,7 @@
         <CollectionView.ItemTemplate>
             <DataTemplate x:DataType="viewmodels:Langage">
                 <Border Stroke="#efefef">
-                    <FlexLayout Direction="ColumnReverse" Wrap="Wrap">
+                    <FlexLayout Direction="Row" Wrap="Wrap">
                     <Label 
                         Grid.Row="1"
                         Text="{Binding Nom}"
