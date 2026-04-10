@@ -9,6 +9,8 @@ public partial class MenuChoixFramework : ContentPage {
     }
 
     async void CreateProjet(object sender, EventArgs e) {
-       await Navigation.PushAsync(new Confirmation());
+        if (sender is Button btn && btn.CommandParameter is Framework framework) {
+            await Navigation.PushAsync(new Confirmation(framework));
+        }
     }
 }

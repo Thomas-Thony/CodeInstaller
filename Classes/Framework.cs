@@ -31,21 +31,5 @@ namespace CodeInstaller.Classes
         public string Logo { get => logo; set => logo = value; }
         public PackageManager Pm { get => pm; set => pm = value; }
         public string Packagename { get => packagename; set => packagename = value; }
-
-        public void createProjectFromFramework(string path, string nomProjet, string? command = null) {
-
-            try {
-                using Process process = new Process {
-                    StartInfo = new ProcessStartInfo {
-                        FileName = "cmd.exe",
-                        UseShellExecute = true,
-                        Arguments = "/k" + "cd " + path + "&& " + this.pm.install(this) + " || " + this.pm.create(this, nomProjet),
-                    }
-                };
-                process.Start();
-            } catch (Exception e) {
-                Console.WriteLine("Erreur lors de l'éxécution de la commande :" + e.Message);
-            }
         }
     }
-}

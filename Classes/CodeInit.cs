@@ -12,9 +12,5 @@ namespace CodeInstaller.Classes
         }
 
         public string ProjectPath { get => projectPath; set => projectPath = value; }
-    
-        public static void CreateProject(Framework aFramework, string path) {
-            aFramework.createProjectFromFramework(path, "Mon_projet_de_test");
-        }
     }
 }

@@ -28,6 +28,7 @@ namespace CodeInstaller.Classes.ClassesScripts.Loaders {
             List<Framework> lesFrameworksJs = JsonConvert.DeserializeObject<List<Framework>>(json);
 
             foreach (var unFrameworkJS in lesFrameworksJs) {
+                unFrameworkJS.Pm = lesPmCharges["Npm"];
                 alisteFrameworksJS.Add(unFrameworkJS.Nom, unFrameworkJS);
             }
 
@@ -46,6 +47,7 @@ namespace CodeInstaller.Classes.ClassesScripts.Loaders {
             List<Framework> lesFrameworksPHP = JsonConvert.DeserializeObject<List<Framework>>(json);
 
             foreach (var unFrameworkPHP in lesFrameworksPHP) {
+                unFrameworkPHP.Pm = lesPmCharges["Composer"];
                 alisteFrameworksPHP.Add(unFrameworkPHP.Nom, unFrameworkPHP);
             }
 

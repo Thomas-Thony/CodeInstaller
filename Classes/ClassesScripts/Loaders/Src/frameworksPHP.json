@@ -4,7 +4,7 @@
     "version": "10.48",
     "nompackage": "laravel/laravel",
     "liengithub": "https://github.com/laravel/laravel",
-    "packagemanager": "composer",
+    "packagename": "composer",
     "logo": "https://s1.qwant.com/thumbr/474x474/3/1/40f482d0f67da8830714e8b5e2b4c5fecb2cf222f6507698252aa40ab977dd/OIP.Hh_tEbIb4-MagJsV6x_RZwHaHa.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.Hh_tEbIb4-MagJsV6x_RZwHaHa%3Fpid%3DApi&q=0&b=1&p=0&a=0"
   },
   {
@@ -12,7 +12,7 @@
     "version": "6.4",
     "nompackage": "symfony/skeleton",
     "liengithub": "https://github.com/symfony/symfony",
-    "packagemanager": "composer",
+    "packagename": "composer",
     "logo": "https://symfony.com/logos/symfony_black_03.png"
   },
   {
@@ -20,7 +20,7 @@
     "version": "4.4",
     "nompackage": "codeigniter4/appstarter",
     "liengithub": "https://github.com/codeigniter4/CodeIgniter4",
-    "packagemanager": "composer",
+    "packagename": "composer",
     "logo": "https://s2.qwant.com/thumbr/474x562/5/3/646d836ae353dd9d07681f834d2baae3c3410ce5a86797214f7dd11d615245/OIP.hA-HZwo23jgVX0mxLGRD9AHaIy.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.hA-HZwo23jgVX0mxLGRD9AHaIy%3Fpid%3DApi&q=0&b=1&p=0&a=0"
   },
   {
@@ -28,7 +28,7 @@
     "version": "2.0",
     "nompackage": "yiisoft/yii2-app-basic",
     "liengithub": "https://github.com/yiisoft/yii2",
-    "packagemanager": "composer",
+    "packagename": "composer",
     "logo": "https://s1.qwant.com/thumbr/474x339/b/f/45517880fa6201172656547f392849741eb627803a99d1c8d7c498e17885a2/OIP.SAGlYwAlpgF3JUC8I6HcgQHaFT.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.SAGlYwAlpgF3JUC8I6HcgQHaFT%3Fpid%3DApi&q=0&b=1&p=0&a=0"
   },
   {
@@ -36,7 +36,7 @@
     "version": "10.5",
     "nompackage": "phpunit/phpunit",
     "liengithub": "https://github.com/sebastianbergmann/phpunit",
-    "packagemanager": "composer",
+    "packagename": "composer",
     "logo": "https://s1.qwant.com/thumbr/474x474/2/5/11fa70db36bd36f1ac336ff095c8252f4cfabe64a9ea14e9c029babbbb0500/OIP.X1Aldsl76riXbhQ1Y8V51wHaHa.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.X1Aldsl76riXbhQ1Y8V51wHaHa%3Fpid%3DApi&q=0&b=1&p=0&a=0"
   },
   {
@@ -44,7 +44,7 @@
     "version": "5.4",
     "nompackage": "phalcon/cphalcon",
     "liengithub": "https://github.com/phalcon/cphalcon",
-    "packagemanager": "pecl/composer",
+    "packagename": "pecl/composer",
     "logo": "https://s2.qwant.com/thumbr/220x107/f/e/378a7979eef22438a591a4126ee778c945bf4e765fadda59ac53ad6559d22a/OIP.Qb43tzLlPTpz-C-OKxs2RwAAAA.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.Qb43tzLlPTpz-C-OKxs2RwAAAA%3Fpid%3DApi&q=0&b=1&p=0&a=0"
   },
   {
@@ -52,7 +52,7 @@
     "version": "5.0",
     "nompackage": "cakephp/app",
     "liengithub": "https://github.com/cakephp/cakephp",
-    "packagemanager": "composer",
+    "packagename": "composer",
     "logo": "https://s2.qwant.com/thumbr/292x166/7/0/b1b9d4c38171e4d8339b8ee6afb88e7e2ed8e6facb1a3c81e232d584c26bf0/OIP.rCAAfyPUykmxezi4UNyl0gAAAA.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.rCAAfyPUykmxezi4UNyl0gAAAA%3Fpid%3DApi&q=0&b=1&p=0&a=0"
   },
   {
@@ -60,7 +60,7 @@
     "version": "4.12",
     "nompackage": "slim/slim-skeleton",
     "liengithub": "https://github.com/slimphp/Slim",
-    "packagemanager": "composer",
+    "packagename": "composer",
     "logo": "https://s1.qwant.com/thumbr/474x296/a/8/4dfdc9dab0eceaa2a6e01884301cd5756817bc08d0b631b29788e0d6d7d72e/OIP.klT1BbEVqgEIA_gcX4xoJgHaEo.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.klT1BbEVqgEIA_gcX4xoJgHaEo%3Fpid%3DApi&q=0&b=1&p=0&a=0"
   },
   {
@@ -68,7 +68,7 @@
     "version": "3.0",
     "nompackage": "zendframework/zendframework",
     "liengithub": "https://github.com/zendframework/zendframework",
-    "packagemanager": "composer",
+    "packagename": "composer",
     "logo": "https://s2.qwant.com/thumbr/474x263/6/a/6585cd5f6d45c7632c91ec7690ca336e6f5bbf7538f246f947a0ef2c0202cd/OIP.mpEF_wLIX1SAfYfq6FjERQHaEH.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.mpEF_wLIX1SAfYfq6FjERQHaEH%3Fpid%3DApi&q=0&b=1&p=0&a=0"
   },
   {
@@ -76,7 +76,7 @@
     "version": "10.0",
     "nompackage": "laravel/lumen",
     "liengithub": "https://github.com/laravel/lumen",
-    "packagemanager": "composer",
+    "packagename": "composer",
     "logo": "https://s2.qwant.com/thumbr/474x240/6/2/c11e9b256b6d45183cda24e8c3f41aef5908cffdb1c48004bf0b8f53c43441/OIP.S3R3Xp1EtH8b03kJEqTtlgHaDw.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.S3R3Xp1EtH8b03kJEqTtlgHaDw%3Fpid%3DApi&q=0&b=1&p=0&a=0"
   },
   {
@@ -84,7 +84,7 @@
     "version": "1.9",
     "nompackage": "fuel/fuel",
     "liengithub": "https://github.com/fuel/fuel",
-    "packagemanager": "composer",
+    "packagename": "composer",
     "logo": "https://s2.qwant.com/thumbr/474x412/f/d/761191abed0f0af4f0d647128c6b6cae02f09b66e9d6490aa34bfcb9ba0b54/OIP.2v33JPkIVxoQKOJyqYO1rgHaGc.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.2v33JPkIVxoQKOJyqYO1rgHaGc%3Fpid%3DApi&q=0&b=1&p=0&a=0"
   },
   {
@@ -92,7 +92,7 @@
     "version": "3.8",
     "nompackage": "bcosca/fatfree",
     "liengithub": "https://github.com/bcosca/fatfree",
-    "packagemanager": "composer",
+    "packagename": "composer",
     "logo": "https://s2.qwant.com/thumbr/474x268/6/4/05aa62dae8f3b68e3b9d6d571f4f3e7ff16ca71f0c966566d050d5f659e19b/OIP.uE7XGnsVrV1EyOFpDoVjDgHaEM.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.uE7XGnsVrV1EyOFpDoVjDgHaEM%3Fpid%3DApi&q=0&b=1&p=0&a=0"
   },
   {
@@ -100,7 +100,7 @@
     "version": "2.3",
     "nompackage": "silex/silex",
     "liengithub": "https://github.com/silexphp/Silex",
-    "packagemanager": "composer",
+    "packagename": "composer",
     "logo": "https://s1.qwant.com/thumbr/140x54/b/b/07a794c91d2ba0e8e5f76cfe0ae37d12f67b2cb2ee3b253c6601ae46101990/OIP.3lJxM_WjaFJBrRKoNQxY4wAAAA.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.3lJxM_WjaFJBrRKoNQxY4wAAAA%3Fpid%3DApi&q=0&b=1&p=0&a=0"
   },
   {
@@ -108,7 +108,7 @@
     "version": "3.2",
     "nompackage": "nette/web-project",
     "liengithub": "https://github.com/nette/nette",
-    "packagemanager": "composer",
+    "packagename": "composer",
     "logo": "https://s1.qwant.com/thumbr/474x252/3/1/274079f9d591d203e37e31f39bf8612d262418886c97df5c730d3fac6ef4c0/OIP.Gjkxipo2nZFSsRul5Rf11AHaD8.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.Gjkxipo2nZFSsRul5Rf11AHaD8%3Fpid%3DApi&q=0&b=1&p=0&a=0"
   },
   {
@@ -116,7 +116,7 @@
     "version": "1.3",
     "nompackage": "mikecao/flight",
     "liengithub": "https://github.com/mikecao/flight",
-    "packagemanager": "composer",
+    "packagename": "composer",
     "logo": "https://s2.qwant.com/thumbr/474x355/7/c/39a4df431bd4b7f36d8451909c0c9313d3d93434c7c6a3f9733fab9b751b94/OIP.BgFzXxI15ePPn1wLfE7KFgHaFj.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.BgFzXxI15ePPn1wLfE7KFgHaFj%3Fpid%3DApi&q=0&b=1&p=0&a=0"
   },
   {
@@ -124,7 +124,7 @@
     "version": "2.1",
     "nompackage": "catfan/medoo",
     "liengithub": "https://github.com/catfan/Medoo",
-    "packagemanager": "composer",
+    "packagename": "composer",
     "logo": "https://s2.qwant.com/thumbr/256x256/5/f/06dbb227afcb126e6a27c42049a4a00970ddc102da085047942bf8798b9ae0/OIP.n_Soke6k4lf1hQug6U7ItQAAAA.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.n_Soke6k4lf1hQug6U7ItQAAAA%3Fpid%3DApi&q=0&b=1&p=0&a=0"
   },
   {
@@ -132,7 +132,7 @@
     "version": "3.13",
     "nompackage": "behat/behat",
     "liengithub": "https://github.com/Behat/Behat",
-    "packagemanager": "composer",
+    "packagename": "composer",
     "logo": "https://s2.qwant.com/thumbr/474x208/c/3/b9edaa10cf1e9281e4106a301c14bc724ad1fe38876493d9ac7dc46ef70bb0/OIP.zeFUTWzOcrQm4aORR9MxxQHaDQ.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.zeFUTWzOcrQm4aORR9MxxQHaDQ%3Fpid%3DApi&q=0&b=1&p=0&a=0"
   },
   {
@@ -140,7 +140,7 @@
     "version": "1.6",
     "nompackage": "mockery/mockery",
     "liengithub": "https://github.com/mockery/mockery",
-    "packagemanager": "composer",
+    "packagename": "composer",
     "logo": ""
   },
   {
@@ -148,7 +148,7 @@
     "version": "7.3",
     "nompackage": "phpspec/phpspec",
     "liengithub": "https://github.com/phpspec/phpspec",
-    "packagemanager": "composer",
+    "packagename": "composer",
     "logo": "https://s1.qwant.com/thumbr/261x261/0/9/931e85eb424b551b2b7604d6e6b7949d7cf0ef6cec3086add40719edaaa4d6/OIP.3gjSZhZXccuSd-l_H-A4kAAAAA.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.3gjSZhZXccuSd-l_H-A4kAAAAA%3Fpid%3DApi&q=0&b=1&p=0&a=0"
   }
 ]

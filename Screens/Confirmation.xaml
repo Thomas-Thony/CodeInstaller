@@ -12,5 +12,16 @@
             Text="Choisir un dossier"
             Clicked="ChoisirDossierAsync"
             />
+
+        <Entry
+            Placeholder="Nom du projet"
+            TextChanged="OnTextChanged"
+            x:Name="nomProjetEntry"
+            />
+
+        <Button
+            Text="Créer le projet"
+            Clicked="OnCreateProjet"
+            />
     </VerticalStackLayout>
 </ContentPage>

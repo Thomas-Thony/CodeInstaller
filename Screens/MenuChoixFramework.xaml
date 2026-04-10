@@ -6,7 +6,7 @@
              Title="Choix du framework">
     <CollectionView x:Name="lesFrameworks" ItemsLayout="VerticalGrid,3" SelectionMode="Single">
         <CollectionView.ItemTemplate>
-            <DataTemplate x:DataType="viewmodels:Langage">
+            <DataTemplate x:DataType="viewmodels:Framework">
                 <Border Stroke="#efefef">
                     <FlexLayout Direction="Row" Wrap="Wrap">
                     <Label 
@@ -27,6 +27,7 @@
                           Grid.Row="4"
                           Text="Créer"
                           Clicked="CreateProjet"
+                          CommandParameter="{Binding .}"
                           MaximumWidthRequest="70"
                           MaximumHeightRequest="70"
                         />

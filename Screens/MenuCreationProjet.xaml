@@ -41,7 +41,7 @@
                                     WidthRequest="60" 
                                 />
                                 <Button
-                                    Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.CreerProjetCommand}"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.CreateProjetCommand}"
                                     CommandParameter="{Binding .}"
                                     Grid.Column="3"
                                     Grid.Row="3"

@@ -1,21 +1,37 @@
+using CodeInstaller.Classes;
 using CommunityToolkit.Maui.Storage;
 namespace CodeInstaller.Screens;
 
 public partial class Confirmation : ContentPage
 {
-	public Confirmation()
-	{
+    Framework leFramework;
+    string chemin;
+
+	public Confirmation(Framework aFramework) {
 		InitializeComponent();
-	}
+        leFramework = aFramework;
+        chemin = "./";
+    }
 
-    private async void ChoisirDossierAsync(object sender, EventArgs e)
-    {
+    private async void ChoisirDossierAsync(object sender, EventArgs e) {
+        chemin = await PickerDossierAsync();
+    }
+
+    private void OnTextChanged(object sender, TextChangedEventArgs e) {
+        
+    }
+
+    private void OnCreateProjet(object sender, EventArgs e) {
+        string nomProjet = nomProjetEntry.Text;
+        leFramework.Pm.createProjectFromFramework(leFramework, chemin, nomProjet);
+    }
+
+    private async Task<string> PickerDossierAsync() {
         var result = await FolderPicker.Default.PickAsync(CancellationToken.None);
-
         if (result.IsSuccessful) {
-            string chemin = result.Folder.Path;
-            string nom = result.Folder.Name;
-            await Shell.Current.DisplayAlert( "Dossier sélectionné", chemin, "OK");
+            return result.Folder.Path;
+        } else {
+            return "./";
         }
     }
 

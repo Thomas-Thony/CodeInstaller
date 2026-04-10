@@ -4,7 +4,7 @@
     "version": "18.9",
     "nompackage": "@angular/cli",
     "liengithub": "https://github.com/angular/angular",
-    "packagemanager": "npm",
+    "packagename": "npm",
     "logo": "https://imgs.search.brave.com/4Yl8AW5wZX0fj_tD_-Z7hc_dCtIY2bth6xrKK8nMtLg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dvZGl4LmNvbS9sb2dvLzE5OTgxMzIucG5n"
   },
   {
@@ -12,7 +12,7 @@
     "version": "7.13",
     "nompackage": "anychart",
     "liengithub": null,
-    "packagemanager": "npm",
+    "packagename": "npm",
     "logo": "https://imgs.search.brave.com/bD5QHwaC1QXCVISyJ65jZznvF2HIo_QA83LtP2BG5G4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hdmF0YXJzLmdpdGh1YnVzZXJjb250ZW50LmNv/bS91LzcwMzM3Mz92PTQmcz0xNjA"
   },
   {
@@ -20,7 +20,7 @@
     "version": "6.0",
     "nompackage": "echarts",
     "liengithub": "https://github.com/apache/echarts",
-    "packagemanager": "npm",
+    "packagename": "npm",
     "logo": "https://echarts.apache.org/en/images/logo.png"
   },
   {
@@ -28,7 +28,7 @@
     "version": "8.49",
     "nompackage": "babylonjs",
     "liengithub": "https://github.com/BabylonJS/Babylon.js",
-    "packagemanager": "npm",
+    "packagename": "npm",
     "logo": "https://imgs.search.brave.com/FZEcpPaOI2rmW-Wp9zyw5L35HbcGNfuVK81X1m3rh88/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFnZXMuc2Vla2xvZ28uY29tL2xvZ28tcG5n/LzM2LzIvYmFieWxvbi1qcy1sb2dvLXBuZ19zZWVrbG9nby0zNjQxMDUucG5n"
   },
   {
@@ -36,7 +36,7 @@
     "version": "4.5",
     "nompackage": "chart.js",
     "liengithub": "https://github.com/chartjs/Chart.js",
-    "packagemanager": "npm",
+    "packagename": "npm",
     "logo": "https://imgs.search.brave.com/jW3cDMi6aryP16eorT_cAOdc5PAdfySXeUX2H-p04kQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFnZXMuc2Vla2xvZ28uY29tL2xvZ28tcG5n/LzQ5LzIvY2hhcnQtanMtbG9nby1wbmdfc2Vl/a2xvZ28tNDk2NDc4LnBuZw"
   },
   {
@@ -44,7 +44,7 @@
     "version": "7.9",
     "nompackage": "d3",
     "liengithub": "https://github.com/d3/d3",
-    "packagemanager": "npm",
+    "packagename": "npm",
     "logo": "https://raw.githubusercontent.com/d3/d3-logo/master/d3.png"
   },
   {
@@ -52,7 +52,7 @@
     "version": "3.3",
     "nompackage": "chr-js",
     "liengithub": "https://github.com/fnogatz/CHR.js/",
-    "packagemanager": "npm",
+    "packagename": "npm",
     "logo": ""
   },
   {
@@ -60,7 +60,7 @@
     "version": "54.0",
     "nompackage": "react-google-charts",
     "liengithub": null,
-    "packagemanager": "npm",
+    "packagename": "npm",
     "logo": "https://www.gstatic.com/images/branding/product/2x/charts_64dp.png"
   },
   {
@@ -68,7 +68,7 @@
     "version": "3.5",
     "nompackage": "@polymer/polymer",
     "liengithub": "https://github.com/Polymer/polymer",
-    "packagemanager": "npm",
+    "packagename": "npm",
     "logo": "https://imgs.search.brave.com/fQzFPQKYOo2Flx3GCDrsEM83bX6rowclNhX88lZKvJM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93ZWItY29tcG9uZW50cy1yZXNvdXJjZXMuYXBwc3BvdC5jb20vYXNzZXRzL2ltYWdlcy9hLXF1aWNrLXBvbHltZXItaW50cm8ucG5n"
   },
   {
@@ -76,7 +76,7 @@
     "version": "8.0",
     "nompackage": "dojo",
     "liengithub": "https://github.com/dojo/meta",
-    "packagemanager": "npm",
+    "packagename": "npm",
     "logo": "https://dojotoolkit.org/images/logo.png"
   },
   {
@@ -84,7 +84,7 @@
     "version": "4.0",
     "nompackage": "jointjs",
     "liengithub": null,
-    "packagemanager": "npm",
+    "packagename": "npm",
     "logo": ""
   },
   {
@@ -92,7 +92,7 @@
     "version": "4.0",
     "nompackage": "jquery",
     "liengithub": "https://github.com/jquery/jquery",
-    "packagemanager": "npm",
+    "packagename": "npm",
     "logo": "https://imgs.search.brave.com/602-KFoqoYmB9ajcHC3mCC6oIw9AGL3nEHLmLQJ_L8o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4uaWNvbnNjb3V0LmNv/bS9pY29uL2ZyZWUvcG5nLTI1Ni9mcmVlLWpxdWVyeS1sb2dvLWljb24tZG93bmxvYWQtaW4tc3ZnLXBuZy1naWYtZmlsZS1mb3JtYXRzLS1icmFuZC1kZXZlbG9wbWVudC10b29scy1wYWNrLWxvZ29zLWljb25zLTIyNTk5OC5wbmc"
   },
   {
@@ -100,7 +100,7 @@
     "version": "1.6",
     "nompackage": "mootools",
     "liengithub": "https://github.com/mootools/mootools-core",
-    "packagemanager": "npm",
+    "packagename": "npm",
     "logo": "https://imgs.search.brave.com/E_j0Wh0FNVkO_-G86gwS1BygRI5VQ03R7E5RSeyS0tI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFnZXMuc2Vla2xvZ28uY29tL2xvZ28tcG5n/LzI3LzIvbW9vdG9vbHMtbG9nby1wbmdfc2Vla2xvZ28tMjczNzMwLnBuZw"
   },
 
@@ -109,7 +109,7 @@
     "version": "18.9",
     "nompackage": "react",
     "liengithub": "https://github.com/facebook/react",
-    "packagemanager": "npm",
+    "packagename": "npm",
     "logo": "https://imgs.search.brave.com/DU3Yz5ErIiS0iHmgTeArdTWG9JgILClu-3YfIX9i8io/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dvcy13b3JsZC5uZXQvd3AtY29udGVudC91cGxvYWRzLzIwMjMvMDgvUmVhY3QtTG9nby01MDB4MjgxLnBuZw"
   },
   {
@@ -117,7 +117,7 @@
     "version": "3.4",
     "nompackage": "vue",
     "liengithub": "https://github.com/vuejs/vue",
-    "packagemanager": "npm",
+    "packagename": "npm",
     "logo": "https://imgs.search.brave.com/AfUf6OmoZETa9IUNPDuGFD_qxawF7wf_J2EViTXb-es/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3NldHMuc3RpY2twbmcuY29tL2ltYWdlcy82MmE3NGY4NTIyMzM0M2ZiYzIyMDdkMDUucG5n"
   },
   {
@@ -125,7 +125,7 @@
     "version": "4.2",
     "nompackage": "svelte",
     "liengithub": "https://github.com/sveltejs/svelte",
-    "packagemanager": "npm/yarn",
+    "packagename": "npm/yarn",
     "logo": "https://imgs.search.brave.com/byDXt86pVVNQh1TD5SGS9uZi_wLYJRd-aQ7XbzSa5T4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG9nLmVsZXZlbi1sYWJzLmNvbS9pbWdzL2FydGljbGVzLzIwMjEtMDItMjItYS1sYS1kZWNvdXZlcnRlLWRlLXN2ZWx0ZS9zdmVsdGUtbG9nby5wbmc"
   },
   {
@@ -133,7 +133,7 @@
     "version": "14.0",
     "nompackage": "next",
     "liengithub": "https://github.com/vercel/next.js",
-    "packagemanager": "npm/yarn",
+    "packagename": "npm/yarn",
     "logo": "https://imgs.search.brave.com/zibqjkvtBQMs_gGppDx8qfpsjnW83MymUF8ByVp3bac/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dvd2lrLmNvbS9jb250ZW50L3VwbG9hZHMvaW1hZ2VzL3RfbmV4dGpzNzY4NS5sb2dvd2lrLmNvbS53ZWJw"
   },
   {
@@ -141,7 +141,7 @@
     "version": "3.0",
     "nompackage": "nuxt",
     "liengithub": "https://github.com/nuxt/nuxt",
-    "packagemanager": "npm/yarn",
+    "packagename": "npm/yarn",
     "logo": "https://imgs.search.brave.com/dBDJNoY_w-EEgJrNoxjOdDDrlvqAQzzyeaMM5YdYxtQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxvYWQud2lraW1lZGlhLm9yZy93aWtpcGVkaWEvY29tbW9ucy80LzQ1L051eHRKU19Mb2dvLnBuZw"
   },
   {
@@ -149,7 +149,7 @@
     "version": "164.0",
     "nompackage": "three",
     "liengithub": "https://github.com/mrdoob/three.js",
-    "packagemanager": "npm/yarn",
+    "packagename": "npm/yarn",
     "logo": "https://imgs.search.brave.com/YnvzvWw1bG4nKSGMfnXPQ6b7T4f27JEK_s9LSx8Vn5Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naXRodWIuY29tL1BvbHltb2xlL3RocmVlanMtbG9nby9yYXcvbWFzdGVyL3RocmVlanMtYmc"
   },
   {
@@ -157,7 +157,7 @@
     "version": "5.3",
     "nompackage": "bootstrap",
     "liengithub": "https://github.com/twbs/bootstrap",
-    "packagemanager": "npm/yarn",
+    "packagename": "npm/yarn",
     "logo": "https://imgs.search.brave.com/-2nvjLwHCLERDqSg1_AgIe3PCTRQa2y2NNDTNqzCDUw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9nZXRib290c3RyYXAuY29tL2RvY3MvNS4wL2Fzc2V0cy9icmFuZC9ib290c3RyYXAtbG9nby5zdmc"
   },
   {
@@ -165,7 +165,7 @@
     "version": "6.7",
     "nompackage": "foundation-sites",
     "liengithub": "https://github.com/foundation/foundation-sites",
-    "packagemanager": "npm/yarn",
+    "packagename": "npm/yarn",
     "logo": "https://imgs.search.brave.com/Z72tXTrIdDcOO9OthYJLWUeGPJdtBTi09lzjamqPh1I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zZWVrdmVjdG9ybG9nby5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMTkvMTAvanMtZm91bmRhdGlvbi12ZWN0b3ItbG9nby5wbmc"
   },
   {
@@ -173,7 +173,7 @@
     "version": "4.18",
     "nompackage": "express",
     "liengithub": "https://github.com/expressjs/express",
-    "packagemanager": "npm/yarn",
+    "packagename": "npm/yarn",
     "logo": "https://imgs.search.brave.com/DtNCSyp_FVdPovtgSZ76Gm444n0AZZobWAawXwtWFzE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wNy5oaWNsaXBhcnQuY29tL3ByZXZpZXcvODQ2Lzg3LzYwNC9tZWFuLXNvbHV0aW9uLXN0YWNrLWV4cHJlc3MtanMtbm9kZS1qcy1qYXZhc2NyaXB0LWdpdGh1Yi10aHVtYm5haWwuanBn"
   },
   {
@@ -181,7 +181,7 @@
     "version": "4.0",
     "nompackage": "@tensorflow/tfjs",
     "liengithub": "https://github.com/tensorflow/tfjs",
-    "packagemanager": "npm/yarn",
+    "packagename": "npm/yarn",
     "logo": "https://imgs.search.brave.com/x1ES0HHTGweoefuknwsmtZY2s5clb4gUvH-E9PF7aP0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hbGwtYXBpLmZyL2FwaS1sb2dvL3RlbnNvcmZsb3cud2VicA"
   },
   {
@@ -189,7 +189,7 @@
     "version": "2.0",
     "nompackage": "brain.js",
     "liengithub": "https://github.com/BrainJS/brain.js",
-    "packagemanager": "npm/yarn",
+    "packagename": "npm/yarn",
     "logo": "https://imgs.search.brave.com/jbY5L1dl560opIzP7PvZtHBUYZgZQt2BZVsWWPKf8Tw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG9nLnB3c2tpbGxzLmNv/bS93cC1jb250ZW50L3VwbG9hZHMvMjAyNS8xMS9zY3JlZW5zaG90LTIwMjUtMTEtMTgtYXQtMTIyMDI5LXBtLTY5MWMxNzdkM2U5NjAud2VicA"
   },
   {
@@ -197,7 +197,7 @@
     "version": "8.0",
     "nompackage": "vite",
     "liengithub": "https://github.com/vitejs/vite",
-    "packagemanager": "npm/yarn",
+    "packagename": "npm/yarn",
     "logo": "https://camo.githubusercontent.com/39b44d22b2a72da1dce4df62d45dd151ae6f9a184497cf930aed99031c1880ae/68747470733a2f2f766974652e6465762f766974652d6c696768742e737667"
   }
 ]
